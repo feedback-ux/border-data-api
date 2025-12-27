@@ -8,7 +8,7 @@
       "id": "alert_kulata_repair",
       "title_en": "Road Works: Kulata",
       "title_bg": "Ремонт: Кулата",
-      "message_en": "One lane is closed. Expect delays.",
+      "message_en": "One lane is closed. Expect delays.123",
       "message_bg": "Едната лента е затворена. Очаквайте забавяния.",
       "severity": "WARNING",
       "country_ids": "BG,GR"
