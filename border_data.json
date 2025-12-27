@@ -1,0 +1,2745 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "published_at": "2025-12-27T21:44:35Z"
+  },
+  "alerts": [
+    {
+      "id": "alert_kulata_repair",
+      "title_en": "Road Works: Kulata",
+      "title_bg": "Ремонт: Кулата",
+      "message_en": "One lane is closed. Expect delays.",
+      "message_bg": "Едната лента е затворена. Очаквайте забавяния.",
+      "severity": "WARNING",
+      "country_ids": "BG,GR"
+    },
+    {
+      "id": "alert_system_check",
+      "titleEn": "System Update",
+      "titleBg": "Обновяване на системата",
+      "message_en": "We are updating camera sources. Some streams might be offline.",
+      "message_bg": "Актуализираме източниците на камерите. Възможно е някои потоци да са офлайн.",
+      "severity": "INFO",
+      "country_ids": "GLOBAL"
+    }
+  ],
+  "countries": [
+    {
+      "id": "AT",
+      "name": "Austria",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇦🇹"
+    },
+    {
+      "id": "BE",
+      "name": "Belgium",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇧🇪"
+    },
+    {
+      "id": "BG",
+      "name": "Bulgaria",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇧🇬"
+    },
+    {
+      "id": "HR",
+      "name": "Croatia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇭🇷"
+    },
+    {
+      "id": "CY",
+      "name": "Cyprus",
+      "is_eu": true,
+      "is_schengen": false,
+      "flag": "🇨🇾"
+    },
+    {
+      "id": "CZ",
+      "name": "Czechia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇨🇿"
+    },
+    {
+      "id": "DK",
+      "name": "Denmark",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇩🇰"
+    },
+    {
+      "id": "EE",
+      "name": "Estonia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇪🇪"
+    },
+    {
+      "id": "FI",
+      "name": "Finland",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇫🇮"
+    },
+    {
+      "id": "FR",
+      "name": "France",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇫🇷"
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇩🇪"
+    },
+    {
+      "id": "GR",
+      "name": "Greece",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇬🇷"
+    },
+    {
+      "id": "HU",
+      "name": "Hungary",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇭🇺"
+    },
+    {
+      "id": "IE",
+      "name": "Ireland",
+      "is_eu": true,
+      "is_schengen": false,
+      "flag": "🇮🇪"
+    },
+    {
+      "id": "IT",
+      "name": "Italy",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇮🇹"
+    },
+    {
+      "id": "LV",
+      "name": "Latvia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇱🇻"
+    },
+    {
+      "id": "LT",
+      "name": "Lithuania",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇱🇹"
+    },
+    {
+      "id": "LU",
+      "name": "Luxembourg",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇱🇺"
+    },
+    {
+      "id": "MT",
+      "name": "Malta",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇲🇹"
+    },
+    {
+      "id": "NL",
+      "name": "Netherlands",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇳🇱"
+    },
+    {
+      "id": "PL",
+      "name": "Poland",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇵🇱"
+    },
+    {
+      "id": "PT",
+      "name": "Portugal",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇵🇹"
+    },
+    {
+      "id": "RO",
+      "name": "Romania",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇷🇴"
+    },
+    {
+      "id": "SK",
+      "name": "Slovakia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇸🇰"
+    },
+    {
+      "id": "SI",
+      "name": "Slovenia",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇸🇮"
+    },
+    {
+      "id": "ES",
+      "name": "Spain",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇪🇸"
+    },
+    {
+      "id": "SE",
+      "name": "Sweden",
+      "is_eu": true,
+      "is_schengen": true,
+      "flag": "🇸🇪"
+    },
+    {
+      "id": "IS",
+      "name": "Iceland",
+      "is_eu": false,
+      "is_schengen": true,
+      "flag": "🇮🇸"
+    },
+    {
+      "id": "NO",
+      "name": "Norway",
+      "is_eu": false,
+      "is_schengen": true,
+      "flag": "🇳🇴"
+    },
+    {
+      "id": "CH",
+      "name": "Switzerland",
+      "is_eu": false,
+      "is_schengen": true,
+      "flag": "🇨🇭"
+    },
+    {
+      "id": "LI",
+      "name": "Liechtenstein",
+      "is_eu": false,
+      "is_schengen": true,
+      "flag": "🇱🇮"
+    },
+    {
+      "id": "GB",
+      "name": "United Kingdom",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇬🇧"
+    },
+    {
+      "id": "TR",
+      "name": "Turkey",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇹🇷"
+    },
+    {
+      "id": "RS",
+      "name": "Serbia",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇷🇸"
+    },
+    {
+      "id": "MK",
+      "name": "North Macedonia",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇲🇰"
+    },
+    {
+      "id": "AL",
+      "name": "Albania",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇦🇱"
+    },
+    {
+      "id": "BA",
+      "name": "Bosnia and Herzegovina",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇧🇦"
+    },
+    {
+      "id": "ME",
+      "name": "Montenegro",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇲🇪"
+    },
+    {
+      "id": "XK",
+      "name": "Kosovo",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇽🇰"
+    },
+    {
+      "id": "MD",
+      "name": "Moldova",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇲🇩"
+    },
+    {
+      "id": "UA",
+      "name": "Ukraine",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇺🇦"
+    },
+    {
+      "id": "BY",
+      "name": "Belarus",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇧🇾"
+    },
+    {
+      "id": "RU",
+      "name": "Russia",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇷🇺"
+    },
+    {
+      "id": "AD",
+      "name": "Andorra",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇦🇩"
+    },
+    {
+      "id": "MC",
+      "name": "Monaco",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇲🇨"
+    },
+    {
+      "id": "SM",
+      "name": "San Marino",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇸🇲"
+    },
+    {
+      "id": "VA",
+      "name": "Vatican City",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇻🇦"
+    },
+    {
+      "id": "MA",
+      "name": "Morocco",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇲🇦"
+    },
+    {
+      "id": "GI",
+      "name": "Gibraltar",
+      "is_eu": false,
+      "is_schengen": false,
+      "flag": "🇬🇮"
+    }
+  ],
+  "phones": [
+    { "country_id": "AT", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "AT", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "133" },
+    { "country_id": "AT", "category": "Road", "name_en": "Road Assistance (ÖAMTC)", "name_bg": "Пътна помощ", "number": "120" },
+    { "country_id": "BE", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "BG", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "BG", "category": "Police", "name_en": "Border Police", "name_bg": "Гранична полиция", "number": "+35929831865" },
+    { "country_id": "BG", "category": "Road", "name_en": "Road Assistance (UAB)", "name_bg": "Пътна помощ (СБА)", "number": "146" },
+    { "country_id": "CH", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "CH", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "117" },
+    { "country_id": "DE", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "DE", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "110" },
+    { "country_id": "DE", "category": "Road", "name_en": "Road Assistance (ADAC)", "name_bg": "Пътна помощ", "number": "+4989222222" },
+    { "country_id": "ES", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "ES", "category": "Police", "name_en": "National Police", "name_bg": "Национална полиция", "number": "091" },
+    { "country_id": "FR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "FR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "17" },
+    { "country_id": "GB", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "999" },
+    { "country_id": "GR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "GR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "100" },
+    { "country_id": "GR", "category": "Road", "name_en": "Road Assistance (ELPA)", "name_bg": "Пътна помощ", "number": "10400" },
+    { "country_id": "HR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "HU", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "HU", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "107" },
+    { "country_id": "IT", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "IT", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "113" },
+    { "country_id": "MK", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "MK", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "192" },
+    { "country_id": "NL", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "PL", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "RO", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "RO", "category": "Police", "name_en": "Border Police", "name_bg": "Гранична полиция", "number": "+40219590" },
+    { "country_id": "RS", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "RS", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "192" },
+    { "country_id": "RS", "category": "Road", "name_en": "Road Assistance (AMSS)", "name_bg": "Пътна помощ", "number": "1987" },
+    { "country_id": "TR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
+    { "country_id": "TR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "155" },
+    { "country_id": "TR", "category": "Road", "name_en": "Road Assistance", "name_bg": "Пътна помощ", "number": "154" },
+    { "country_id": "UA", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" }
+  ],
+  "articles": [
+    {
+      "id": "docs_general",
+      "title": "Required Documents (EU/Schengen)",
+      "content": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "country_ids": "EU"
+    },
+    {
+      "id": "vignette_bg",
+      "title": "Vignette Rules: Bulgaria",
+      "content": "Driving on national roads in Bulgaria requires a valid Vignette (BGTOLL). \n\nYou can buy it online or at the border.",
+      "country_ids": "BG"
+    },
+    {
+      "id": "speed_gr",
+      "title": "Speed Limits: Greece",
+      "content": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+      "country_ids": "GR"
+    }
+  ],
+  "crossings": [
+    {
+      "id": "BG-GR-01",
+      "name": "Bulgaria - Greece",
+      "country_a_id": "BG",
+      "country_b_id": "GR",
+      "status": "BUSY",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-TR-01",
+      "name": "Bulgaria - Turkey",
+      "country_a_id": "BG",
+      "country_b_id": "TR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AD-ES-01",
+      "name": "Andorra – Spain",
+      "country_a_id": "AD",
+      "country_b_id": "ES",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AD-FR-01",
+      "name": "Andorra – France",
+      "country_a_id": "AD",
+      "country_b_id": "FR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AL-GR-01",
+      "name": "Albania – Greece",
+      "country_a_id": "AL",
+      "country_b_id": "GR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AL-ME-01",
+      "name": "Albania – Montenegro",
+      "country_a_id": "AL",
+      "country_b_id": "ME",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AL-MK-01",
+      "name": "Albania – North Macedonia",
+      "country_a_id": "AL",
+      "country_b_id": "MK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AL-XK-01",
+      "name": "Albania – Kosovo",
+      "country_a_id": "AL",
+      "country_b_id": "XK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-CH-01",
+      "name": "Austria – Switzerland",
+      "country_a_id": "AT",
+      "country_b_id": "CH",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-CZ-01",
+      "name": "Austria – Czechia",
+      "country_a_id": "AT",
+      "country_b_id": "CZ",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-DE-01",
+      "name": "Austria – Germany",
+      "country_a_id": "AT",
+      "country_b_id": "DE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-HU-01",
+      "name": "Austria – Hungary",
+      "country_a_id": "AT",
+      "country_b_id": "HU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-IT-01",
+      "name": "Austria – Italy",
+      "country_a_id": "AT",
+      "country_b_id": "IT",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-LI-01",
+      "name": "Austria – Liechtenstein",
+      "country_a_id": "AT",
+      "country_b_id": "LI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-SI-01",
+      "name": "Austria – Slovenia",
+      "country_a_id": "AT",
+      "country_b_id": "SI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-SK-01",
+      "name": "Austria – Slovakia",
+      "country_a_id": "AT",
+      "country_b_id": "SK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BA-HR-01",
+      "name": "Bosnia and Herzegovina – Croatia",
+      "country_a_id": "BA",
+      "country_b_id": "HR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BA-ME-01",
+      "name": "Bosnia and Herzegovina – Montenegro",
+      "country_a_id": "BA",
+      "country_b_id": "ME",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BA-RS-01",
+      "name": "Bosnia and Herzegovina – Serbia",
+      "country_a_id": "BA",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-DE-01",
+      "name": "Belgium – Germany",
+      "country_a_id": "BE",
+      "country_b_id": "DE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-FR-01",
+      "name": "Belgium – France",
+      "country_a_id": "BE",
+      "country_b_id": "FR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-LU-01",
+      "name": "Belgium – Luxembourg",
+      "country_a_id": "BE",
+      "country_b_id": "LU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-NL-01",
+      "name": "Belgium – Netherlands",
+      "country_a_id": "BE",
+      "country_b_id": "NL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-MK-01",
+      "name": "Bulgaria – North Macedonia",
+      "country_a_id": "BG",
+      "country_b_id": "MK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RO-01",
+      "name": "Ruse – Giurgiu (Danube Bridge)",
+      "country_a_id": "BG",
+      "country_b_id": "RO",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RS-01",
+      "name": "Bulgaria – Serbia",
+      "country_a_id": "BG",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BY-LT-01",
+      "name": "Belarus – Lithuania",
+      "country_a_id": "BY",
+      "country_b_id": "LT",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BY-LV-01",
+      "name": "Belarus – Latvia",
+      "country_a_id": "BY",
+      "country_b_id": "LV",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BY-PL-01",
+      "name": "Belarus – Poland",
+      "country_a_id": "BY",
+      "country_b_id": "PL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BY-RU-01",
+      "name": "Belarus – Russia",
+      "country_a_id": "BY",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BY-UA-01",
+      "name": "Belarus – Ukraine",
+      "country_a_id": "BY",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-DE-01",
+      "name": "Switzerland – Germany",
+      "country_a_id": "CH",
+      "country_b_id": "DE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-FR-01",
+      "name": "Switzerland – France",
+      "country_a_id": "CH",
+      "country_b_id": "FR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-IT-01",
+      "name": "Switzerland – Italy",
+      "country_a_id": "CH",
+      "country_b_id": "IT",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-LI-01",
+      "name": "Switzerland – Liechtenstein",
+      "country_a_id": "CH",
+      "country_b_id": "LI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CZ-DE-01",
+      "name": "Czechia – Germany",
+      "country_a_id": "CZ",
+      "country_b_id": "DE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CZ-PL-01",
+      "name": "Czechia – Poland",
+      "country_a_id": "CZ",
+      "country_b_id": "PL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CZ-SK-01",
+      "name": "Czechia – Slovakia",
+      "country_a_id": "CZ",
+      "country_b_id": "SK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-DK-01",
+      "name": "Germany – Denmark",
+      "country_a_id": "DE",
+      "country_b_id": "DK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-FR-01",
+      "name": "Germany – France",
+      "country_a_id": "DE",
+      "country_b_id": "FR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-LU-01",
+      "name": "Germany – Luxembourg",
+      "country_a_id": "DE",
+      "country_b_id": "LU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-NL-01",
+      "name": "Germany – Netherlands",
+      "country_a_id": "DE",
+      "country_b_id": "NL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-PL-01",
+      "name": "Germany – Poland",
+      "country_a_id": "DE",
+      "country_b_id": "PL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "EE-LV-01",
+      "name": "Estonia – Latvia",
+      "country_a_id": "EE",
+      "country_b_id": "LV",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "EE-RU-01",
+      "name": "Estonia – Russia",
+      "country_a_id": "EE",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-FR-01",
+      "name": "Spain – France",
+      "country_a_id": "ES",
+      "country_b_id": "FR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-GI-01",
+      "name": "Spain – Gibraltar",
+      "country_a_id": "ES",
+      "country_b_id": "GI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-MA-01",
+      "name": "Spain – Morocco",
+      "country_a_id": "ES",
+      "country_b_id": "MA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-PT-01",
+      "name": "Spain – Portugal",
+      "country_a_id": "ES",
+      "country_b_id": "PT",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FI-NO-01",
+      "name": "Finland – Norway",
+      "country_a_id": "FI",
+      "country_b_id": "NO",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FI-RU-01",
+      "name": "Finland – Russia",
+      "country_a_id": "FI",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FI-SE-01",
+      "name": "Finland – Sweden",
+      "country_a_id": "FI",
+      "country_b_id": "SE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-GB-01",
+      "name": "France – United Kingdom",
+      "country_a_id": "FR",
+      "country_b_id": "GB",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-IT-01",
+      "name": "France – Italy",
+      "country_a_id": "FR",
+      "country_b_id": "IT",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-LU-01",
+      "name": "France – Luxembourg",
+      "country_a_id": "FR",
+      "country_b_id": "LU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-MC-01",
+      "name": "France – Monaco",
+      "country_a_id": "FR",
+      "country_b_id": "MC",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "GB-GI-01",
+      "name": "United Kingdom – Gibraltar",
+      "country_a_id": "GB",
+      "country_b_id": "GI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "GB-IE-01",
+      "name": "United Kingdom – Ireland",
+      "country_a_id": "GB",
+      "country_b_id": "IE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "GR-MK-01",
+      "name": "Greece – North Macedonia",
+      "country_a_id": "GR",
+      "country_b_id": "MK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "GR-TR-01",
+      "name": "Greece – Turkey",
+      "country_a_id": "GR",
+      "country_b_id": "TR",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-HU-01",
+      "name": "Croatia – Hungary",
+      "country_a_id": "HR",
+      "country_b_id": "HU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-ME-01",
+      "name": "Croatia – Montenegro",
+      "country_a_id": "HR",
+      "country_b_id": "ME",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-RS-01",
+      "name": "Croatia – Serbia",
+      "country_a_id": "HR",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-SI-01",
+      "name": "Croatia – Slovenia",
+      "country_a_id": "HR",
+      "country_b_id": "SI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-RO-01",
+      "name": "Hungary – Romania",
+      "country_a_id": "HU",
+      "country_b_id": "RO",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-RS-01",
+      "name": "Hungary – Serbia",
+      "country_a_id": "HU",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-SI-01",
+      "name": "Hungary – Slovenia",
+      "country_a_id": "HU",
+      "country_b_id": "SI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-SK-01",
+      "name": "Hungary – Slovakia",
+      "country_a_id": "HU",
+      "country_b_id": "SK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-UA-01",
+      "name": "Hungary – Ukraine",
+      "country_a_id": "HU",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "IT-SI-01",
+      "name": "Italy – Slovenia",
+      "country_a_id": "IT",
+      "country_b_id": "SI",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "IT-SM-01",
+      "name": "Italy – San Marino",
+      "country_a_id": "IT",
+      "country_b_id": "SM",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "IT-VA-01",
+      "name": "Italy – Vatican City",
+      "country_a_id": "IT",
+      "country_b_id": "VA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "LT-LV-01",
+      "name": "Lithuania – Latvia",
+      "country_a_id": "LT",
+      "country_b_id": "LV",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "LT-PL-01",
+      "name": "Lithuania – Poland",
+      "country_a_id": "LT",
+      "country_b_id": "PL",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "LT-RU-01",
+      "name": "Lithuania – Russia",
+      "country_a_id": "LT",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "LV-RU-01",
+      "name": "Latvia – Russia",
+      "country_a_id": "LV",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "MD-RO-01",
+      "name": "Moldova – Romania",
+      "country_a_id": "MD",
+      "country_b_id": "RO",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "MD-UA-01",
+      "name": "Moldova – Ukraine",
+      "country_a_id": "MD",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ME-RS-01",
+      "name": "Montenegro – Serbia",
+      "country_a_id": "ME",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ME-XK-01",
+      "name": "Montenegro – Kosovo",
+      "country_a_id": "ME",
+      "country_b_id": "XK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "MK-RS-01",
+      "name": "North Macedonia – Serbia",
+      "country_a_id": "MK",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "MK-XK-01",
+      "name": "North Macedonia – Kosovo",
+      "country_a_id": "MK",
+      "country_b_id": "XK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "NO-RU-01",
+      "name": "Norway – Russia",
+      "country_a_id": "NO",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "NO-SE-01",
+      "name": "Norway – Sweden",
+      "country_a_id": "NO",
+      "country_b_id": "SE",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "PL-RU-01",
+      "name": "Poland – Russia",
+      "country_a_id": "PL",
+      "country_b_id": "RU",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "PL-SK-01",
+      "name": "Poland – Slovakia",
+      "country_a_id": "PL",
+      "country_b_id": "SK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "PL-UA-01",
+      "name": "Poland – Ukraine",
+      "country_a_id": "PL",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RO-RS-01",
+      "name": "Romania – Serbia",
+      "country_a_id": "RO",
+      "country_b_id": "RS",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RO-UA-01",
+      "name": "Romania – Ukraine",
+      "country_a_id": "RO",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RS-XK-01",
+      "name": "Serbia – Kosovo",
+      "country_a_id": "RS",
+      "country_b_id": "XK",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RU-UA-01",
+      "name": "Russia – Ukraine",
+      "country_a_id": "RU",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "SK-UA-01",
+      "name": "Slovakia – Ukraine",
+      "country_a_id": "SK",
+      "country_b_id": "UA",
+      "status": "open",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RO-02",
+      "name": "Vidin – Calafat (Danube Bridge II)",
+      "country_a_id": "BG",
+      "country_b_id": "RO",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-GR-02",
+      "name": "Makaza – Nymfaia",
+      "country_a_id": "BG",
+      "country_b_id": "GR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-GR-03",
+      "name": "Ilinden – Exochi",
+      "country_a_id": "BG",
+      "country_b_id": "GR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RS-02",
+      "name": "Kalotina – Gradina",
+      "country_a_id": "BG",
+      "country_b_id": "RS",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-MK-02",
+      "name": "Gyueshevo – Deve Bair",
+      "country_a_id": "BG",
+      "country_b_id": "MK",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "GR-TR-02",
+      "name": "Kipoi – İpsala",
+      "country_a_id": "GR",
+      "country_b_id": "TR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-RO-02",
+      "name": "Nădlac – Csanádpalota",
+      "country_a_id": "HU",
+      "country_b_id": "RO",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-RS-02",
+      "name": "Röszke – Horgoš",
+      "country_a_id": "HU",
+      "country_b_id": "RS",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-UA-02",
+      "name": "Záhony – Chop",
+      "country_a_id": "HU",
+      "country_b_id": "UA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HU-SK-02",
+      "name": "Rajka – Rusovce",
+      "country_a_id": "HU",
+      "country_b_id": "SK",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-IT-02",
+      "name": "Brenner – Brennero",
+      "country_a_id": "AT",
+      "country_b_id": "IT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-DE-02",
+      "name": "Salzburg – Freilassing (A1)",
+      "country_a_id": "AT",
+      "country_b_id": "DE",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-HU-02",
+      "name": "Nickelsdorf – Hegyeshalom (A4/M1)",
+      "country_a_id": "AT",
+      "country_b_id": "HU",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-CZ-02",
+      "name": "Drasenhofen – Mikulov (A5/D52)",
+      "country_a_id": "AT",
+      "country_b_id": "CZ",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-SK-02",
+      "name": "Berg – Bratislava (A6/D4)",
+      "country_a_id": "AT",
+      "country_b_id": "SK",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-SI-02",
+      "name": "Spielfeld – Šentilj (A9)",
+      "country_a_id": "AT",
+      "country_b_id": "SI",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-FR-02",
+      "name": "La Jonquera – Le Perthus",
+      "country_a_id": "FR",
+      "country_b_id": "ES",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-IT-02",
+      "name": "Mont Blanc Tunnel (Chamonix – Courmayeur)",
+      "country_a_id": "FR",
+      "country_b_id": "IT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-IT-03",
+      "name": "Ventimiglia – Menton",
+      "country_a_id": "FR",
+      "country_b_id": "IT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-PT-02",
+      "name": "Vilar Formoso – Fuentes de Oñoro",
+      "country_a_id": "ES",
+      "country_b_id": "PT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ES-PT-03",
+      "name": "Valença – Tui (A3/AP-9)",
+      "country_a_id": "ES",
+      "country_b_id": "PT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-PL-02",
+      "name": "Frankfurt (Oder) – Słubice (A12/A2)",
+      "country_a_id": "DE",
+      "country_b_id": "PL",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-PL-03",
+      "name": "Görlitz – Zgorzelec (A4)",
+      "country_a_id": "DE",
+      "country_b_id": "PL",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-PL-04",
+      "name": "Świecko – Frankfurt (Oder) (A2)",
+      "country_a_id": "DE",
+      "country_b_id": "PL",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "DE-DK-02",
+      "name": "Flensburg – Kruså (E45)",
+      "country_a_id": "DE",
+      "country_b_id": "DK",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "NO-SE-02",
+      "name": "Svinesund Bridge (E6)",
+      "country_a_id": "SE",
+      "country_b_id": "NO",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FI-NO-02",
+      "name": "Kilpisjärvi – Skibotn (E8)",
+      "country_a_id": "FI",
+      "country_b_id": "NO",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-IT-02",
+      "name": "Chiasso – Como",
+      "country_a_id": "CH",
+      "country_b_id": "IT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-FR-02",
+      "name": "Basel – Saint-Louis",
+      "country_a_id": "CH",
+      "country_b_id": "FR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "CH-DE-02",
+      "name": "Basel – Weil am Rhein",
+      "country_a_id": "CH",
+      "country_b_id": "DE",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "AT-CH-02",
+      "name": "St. Margrethen – Höchst",
+      "country_a_id": "CH",
+      "country_b_id": "AT",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "PL-UA-02",
+      "name": "Medyka – Shehyni",
+      "country_a_id": "PL",
+      "country_b_id": "UA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "PL-UA-03",
+      "name": "Korczowa – Krakovets",
+      "country_a_id": "PL",
+      "country_b_id": "UA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "SK-UA-02",
+      "name": "Vyšné Nemecké – Uzhhorod",
+      "country_a_id": "SK",
+      "country_b_id": "UA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RO-UA-02",
+      "name": "Siret – Porubne",
+      "country_a_id": "RO",
+      "country_b_id": "UA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "RO-RS-02",
+      "name": "Porțile de Fier I (Drobeta-Turnu Severin)",
+      "country_a_id": "RO",
+      "country_b_id": "RS",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "MD-RO-02",
+      "name": "Albița – Leușeni",
+      "country_a_id": "MD",
+      "country_b_id": "RO",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-RS-02",
+      "name": "Bajakovo – Batrovci (E70)",
+      "country_a_id": "HR",
+      "country_b_id": "RS",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "HR-SI-02",
+      "name": "Bregana – Obrežje (A2/E70)",
+      "country_a_id": "SI",
+      "country_b_id": "HR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BA-HR-02",
+      "name": "Stara Gradiška – Gradiška",
+      "country_a_id": "HR",
+      "country_b_id": "BA",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "IT-SI-02",
+      "name": "Fernetti – Sežana",
+      "country_a_id": "IT",
+      "country_b_id": "SI",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-NL-02",
+      "name": "Antwerp – Breda (E19)",
+      "country_a_id": "NL",
+      "country_b_id": "BE",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BE-FR-02",
+      "name": "Lille – Tournai (E17/A27)",
+      "country_a_id": "BE",
+      "country_b_id": "FR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "FR-GB-02",
+      "name": "Dover – Calais (Ferry/Eurotunnel)",
+      "country_a_id": "GB",
+      "country_b_id": "FR",
+      "status": "OPEN",
+      "cameras": [
+        {
+          "title": "Dummy Camera A",
+          "url": "https://example.com/dummy_a.m3u8"
+        },
+        {
+          "title": "Dummy Camera B",
+          "url": "https://example.com/dummy_b.m3u8"
+        }
+      ]
+    }
+  ]
+}
