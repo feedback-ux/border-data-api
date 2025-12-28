@@ -26,8 +26,7 @@
   "countries": [
     {
       "id": "EU",
-      "nameBg": "Европейски съюз",
-      "nameEn": "European Union",
+      "name": "European Union",
       "is_eu": true,
       "is_schengen": false,
       "flag": "🇪🇺"
