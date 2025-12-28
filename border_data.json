@@ -1,6 +1,6 @@
 {
   "meta": {
-    "schema_version": 1,
+    "schema_version": 2,
     "published_at": "2025-12-27T21:44:35Z"
   },
   "alerts": [
@@ -8,7 +8,7 @@
       "id": "alert_kulata_repair",
       "title_en": "Road Works: Kulata",
       "title_bg": "Ремонт: Кулата",
-      "message_en": "One lane is closed. Expect delays.",
+      "message_en": "One lane is closed. Expect delays!"1,4,
       "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
       "country_ids": "BG,GR"
@@ -18,7 +18,7 @@
       "title_en": "System Update",
       "title_bg": "Обновяване на системата",
       "message_en": "We are updating camera sources. Some streams might be offline.",
-      "message_bg": "Актуализираме източниците на камерите. Възможно е някои потоци да са офлайн!",
+      "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
       "country_ids": "GLOBAL"
     }
