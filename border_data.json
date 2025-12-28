@@ -11,17 +11,6 @@
       "message_en": "One lane is closed. Expect delays!",
       "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
-      "enabled": 1,
-      "country_ids": "BG,GR"
-    },
-	{
-      "id": "alert_dunavmost1_repair",
-      "title_en": "Road Works: Dunav most 1",
-      "title_bg": "Ремонт: Дунав мост 1",
-      "message_en": "One lane is closed. Expect delays!",
-      "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
-      "severity": "WARNING",
-	  "enabled": 0,
       "country_ids": "BG,GR"
     },
     {
@@ -31,18 +20,7 @@
       "message_en": "We are updating camera sources. Some streams might be offline.",
       "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
-	  "enabled": 1,
-      "country_ids": "ALL"
-    },
-	{
-      "id": "alert_system_check1",
-      "title_en": "System Update TEST",
-      "title_bg": "Обновяване на системата TEST",
-      "message_en": "TEST TEST.",
-      "message_bg": "TESTTTTTTTT!",
-      "severity": "INFO",
-	  "enabled": 1,
-      "country_ids": "ALL"
+      "country_ids": "GLOBAL"
     }
   ],
   "countries": [
@@ -51,350 +29,400 @@
       "name": "European Union",
       "is_eu": true,
       "is_schengen": false,
-      "flag": "🇪🇺"
+      "flag": "🇪🇺",
+	  "enabled": 1
     },
     {
       "id": "AT",
       "name": "Austria",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇦🇹"
+      "flag": "🇦🇹",
+	  "enabled": 1
     },
     {
       "id": "BE",
       "name": "Belgium",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇧🇪"
+      "flag": "🇧🇪",
+	  "enabled": 1
     },
     {
       "id": "BG",
       "name": "Bulgaria",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇧🇬"
+      "flag": "🇧🇬",
+	  "enabled": 1
     },
     {
       "id": "HR",
       "name": "Croatia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇭🇷"
+      "flag": "🇭🇷",
+	  "enabled": 1
     },
     {
       "id": "CY",
       "name": "Cyprus",
       "is_eu": true,
       "is_schengen": false,
-      "flag": "🇨🇾"
+      "flag": "🇨🇾",
+	  "enabled": 1
     },
     {
       "id": "CZ",
       "name": "Czechia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇨🇿"
+      "flag": "🇨🇿",
+	  "enabled": 1
     },
     {
       "id": "DK",
       "name": "Denmark",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇩🇰"
+      "flag": "🇩🇰",
+	  "enabled": 1
     },
     {
       "id": "EE",
       "name": "Estonia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇪🇪"
+      "flag": "🇪🇪",
+	  "enabled": 1
     },
     {
       "id": "FI",
       "name": "Finland",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇫🇮"
+      "flag": "🇫🇮",
+	  "enabled": 1
     },
     {
       "id": "FR",
       "name": "France",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇫🇷"
+      "flag": "🇫🇷",
+	  "enabled": 1
     },
     {
       "id": "DE",
       "name": "Germany",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇩🇪"
+      "flag": "🇩🇪",
+	  "enabled": 1
     },
     {
       "id": "GR",
       "name": "Greece",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇬🇷"
+      "flag": "🇬🇷",
+	  "enabled": 1
     },
     {
       "id": "HU",
       "name": "Hungary",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇭🇺"
+      "flag": "🇭🇺",
+	  "enabled": 1
     },
     {
       "id": "IE",
       "name": "Ireland",
       "is_eu": true,
       "is_schengen": false,
-      "flag": "🇮🇪"
+      "flag": "🇮🇪",
+	  "enabled": 1
     },
     {
       "id": "IT",
       "name": "Italy",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇮🇹"
+      "flag": "🇮🇹",
+	  "enabled": 1
     },
     {
       "id": "LV",
       "name": "Latvia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇱🇻"
+      "flag": "🇱🇻",
+	  "enabled": 1
     },
     {
       "id": "LT",
       "name": "Lithuania",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇱🇹"
+      "flag": "🇱🇹",
+	  "enabled": 1
     },
     {
       "id": "LU",
       "name": "Luxembourg",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇱🇺"
+      "flag": "🇱🇺",
+	  "enabled": 1
     },
     {
       "id": "MT",
       "name": "Malta",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇲🇹"
+      "flag": "🇲🇹",
+	  "enabled": 1
     },
     {
       "id": "NL",
       "name": "Netherlands",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇳🇱"
+      "flag": "🇳🇱",
+	  "enabled": 1
     },
     {
       "id": "PL",
       "name": "Poland",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇵🇱"
+      "flag": "🇵🇱",
+	  "enabled": 1
     },
     {
       "id": "PT",
       "name": "Portugal",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇵🇹"
+      "flag": "🇵🇹",
+	  "enabled": 1
     },
     {
       "id": "RO",
       "name": "Romania",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇷🇴"
+      "flag": "🇷🇴",
+	  "enabled": 1
     },
     {
       "id": "SK",
       "name": "Slovakia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇸🇰"
+      "flag": "🇸🇰",
+	  "enabled": 1
     },
     {
       "id": "SI",
       "name": "Slovenia",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇸🇮"
+      "flag": "🇸🇮",
+	  "enabled": 1
     },
     {
       "id": "ES",
       "name": "Spain",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇪🇸"
+      "flag": "🇪🇸",
+	  "enabled": 1
     },
     {
       "id": "SE",
       "name": "Sweden",
       "is_eu": true,
       "is_schengen": true,
-      "flag": "🇸🇪"
+      "flag": "🇸🇪",
+	  "enabled": 1
     },
     {
       "id": "IS",
       "name": "Iceland",
       "is_eu": false,
       "is_schengen": true,
-      "flag": "🇮🇸"
+      "flag": "🇮🇸",
+	  "enabled": 1
     },
     {
       "id": "NO",
       "name": "Norway",
       "is_eu": false,
       "is_schengen": true,
-      "flag": "🇳🇴"
+      "flag": "🇳🇴",
+	  "enabled": 1
     },
     {
       "id": "CH",
       "name": "Switzerland",
       "is_eu": false,
       "is_schengen": true,
-      "flag": "🇨🇭"
+      "flag": "🇨🇭",
+	  "enabled": 1
     },
     {
       "id": "LI",
       "name": "Liechtenstein",
       "is_eu": false,
       "is_schengen": true,
-      "flag": "🇱🇮"
+      "flag": "🇱🇮",
+	  "enabled": 1
     },
     {
       "id": "GB",
       "name": "United Kingdom",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇬🇧"
+      "flag": "🇬🇧",
+	  "enabled": 1
     },
     {
       "id": "TR",
       "name": "Turkey",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇹🇷"
+      "flag": "🇹🇷",
+	  "enabled": 1
     },
     {
       "id": "RS",
       "name": "Serbia",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇷🇸"
+      "flag": "🇷🇸",
+	  "enabled": 1
     },
     {
       "id": "MK",
       "name": "North Macedonia",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇲🇰"
+      "flag": "🇲🇰",
+	  "enabled": 1
     },
     {
       "id": "AL",
       "name": "Albania",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇦🇱"
+      "flag": "🇦🇱",
+	  "enabled": 1
     },
     {
       "id": "BA",
       "name": "Bosnia and Herzegovina",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇧🇦"
+      "flag": "🇧🇦",
+	  "enabled": 1
     },
     {
       "id": "ME",
       "name": "Montenegro",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇲🇪"
+      "flag": "🇲🇪",
+	  "enabled": 1
     },
     {
       "id": "XK",
       "name": "Kosovo",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇽🇰"
+      "flag": "🇽🇰",
+	  "enabled": 1
     },
     {
       "id": "MD",
       "name": "Moldova",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇲🇩"
+      "flag": "🇲🇩",
+	  "enabled": 1
     },
     {
       "id": "UA",
       "name": "Ukraine",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇺🇦"
+      "flag": "🇺🇦",
+	  "enabled": 1
     },
     {
       "id": "BY",
       "name": "Belarus",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇧🇾"
+      "flag": "🇧🇾",
+	  "enabled": 1
     },
     {
       "id": "RU",
       "name": "Russia",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇷🇺"
+      "flag": "🇷🇺",
+	  "enabled": 1
     },
     {
       "id": "AD",
       "name": "Andorra",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇦🇩"
+      "flag": "🇦🇩",
+	  "enabled": 1
     },
     {
       "id": "MC",
       "name": "Monaco",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇲🇨"
+      "flag": "🇲🇨",
+	  "enabled": 1
     },
     {
       "id": "SM",
       "name": "San Marino",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇸🇲"
+      "flag": "🇸🇲",
+	  "enabled": 1
     },
     {
       "id": "VA",
       "name": "Vatican City",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇻🇦"
+      "flag": "🇻🇦",
+	  "enabled": 1
     },
     {
       "id": "MA",
       "name": "Morocco",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇲🇦"
+      "flag": "🇲🇦",
+	  "enabled": 1
     },
     {
       "id": "GI",
       "name": "Gibraltar",
       "is_eu": false,
       "is_schengen": false,
-      "flag": "🇬🇮"
+      "flag": "🇬🇮",
+	  "enabled": 1
     }
   ],
   "phones": [
@@ -528,7 +556,7 @@
       "country_b_id": "FR",
       "status": 0,
 	  "lat": 51.1259, 
-	  "lng": 1.3357,
+	  "lng": 50.9667,
       "cameras": [
         {
           "title": "Dummy Camera A",
