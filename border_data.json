@@ -33,6 +33,16 @@
       "severity": "INFO",
 	  "enabled": 1,
       "country_ids": "GLOBAL"
+    },
+	{
+      "id": "alert_system_check",
+      "title_en": "System Update TEST",
+      "title_bg": "Обновяване на системата TEST",
+      "message_en": "TEST TEST.",
+      "message_bg": "TESTTTTTTTT!",
+      "severity": "INFO",
+	  "enabled": 1,
+      "country_ids": "GLOBAL"
     }
   ],
   "countries": [
