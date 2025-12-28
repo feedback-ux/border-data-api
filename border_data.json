@@ -25,6 +25,14 @@
   ],
   "countries": [
     {
+      "id": "EU",
+      "nameBg": "Европейски съюз",
+      "nameEn": "European Union",
+      "is_eu": true,
+      "is_schengen": false,
+      "flag": "🇪🇺"
+    },
+    {
       "id": "AT",
       "name": "Austria",
       "is_eu": true,
