@@ -13,6 +13,15 @@
       "severity": "WARNING",
       "country_ids": "BG,GR"
     },
+	{
+      "id": "alert_dunavmost1_repair",
+      "title_en": "Road Works: Dunav most 1",
+      "title_bg": "Ремонт: Дунав мост 1",
+      "message_en": "One lane is closed. Expect delays!",
+      "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
+      "severity": "WARNING",
+      "country_ids": "BG,GR"
+    },
     {
       "id": "alert_system_check",
       "title_en": "System Update",
