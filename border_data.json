@@ -38,7 +38,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇦🇹",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "BE",
@@ -46,7 +46,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇧🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "BG",
@@ -62,7 +62,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇭🇷",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "CY",
