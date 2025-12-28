@@ -70,7 +70,7 @@
       "is_eu": true,
       "is_schengen": false,
       "flag": "🇨🇾",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "CZ",
@@ -78,7 +78,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇨🇿",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "DK",
@@ -86,7 +86,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇩🇰",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "EE",
@@ -94,7 +94,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇪🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "FI",
@@ -102,7 +102,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇫🇮",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "FR",
@@ -110,7 +110,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇫🇷",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "DE",
@@ -118,7 +118,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇩🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "GR",
@@ -134,7 +134,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇭🇺",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "IE",
@@ -142,7 +142,7 @@
       "is_eu": true,
       "is_schengen": false,
       "flag": "🇮🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "IT",
@@ -150,7 +150,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇮🇹",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "LV",
@@ -158,7 +158,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇱🇻",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "LT",
@@ -166,7 +166,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇱🇹",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "LU",
@@ -174,7 +174,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇱🇺",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "MT",
@@ -182,7 +182,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇲🇹",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "NL",
@@ -190,7 +190,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇳🇱",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "PL",
@@ -198,7 +198,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇵🇱",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "PT",
@@ -206,7 +206,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇵🇹",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "RO",
@@ -222,7 +222,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇸🇰",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "SI",
@@ -230,7 +230,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇸🇮",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "ES",
@@ -238,7 +238,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇪🇸",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "SE",
@@ -246,7 +246,7 @@
       "is_eu": true,
       "is_schengen": true,
       "flag": "🇸🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "IS",
@@ -254,7 +254,7 @@
       "is_eu": false,
       "is_schengen": true,
       "flag": "🇮🇸",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "NO",
@@ -262,7 +262,7 @@
       "is_eu": false,
       "is_schengen": true,
       "flag": "🇳🇴",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "CH",
@@ -270,7 +270,7 @@
       "is_eu": false,
       "is_schengen": true,
       "flag": "🇨🇭",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "LI",
@@ -278,7 +278,7 @@
       "is_eu": false,
       "is_schengen": true,
       "flag": "🇱🇮",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "GB",
@@ -286,7 +286,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇬🇧",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "TR",
@@ -318,7 +318,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇦🇱",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "BA",
@@ -326,7 +326,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇧🇦",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "ME",
@@ -334,7 +334,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇲🇪",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "XK",
@@ -342,7 +342,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇽🇰",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "MD",
@@ -350,7 +350,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇲🇩",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "UA",
@@ -358,7 +358,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇺🇦",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "BY",
@@ -366,7 +366,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇧🇾",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "RU",
@@ -374,7 +374,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇷🇺",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "AD",
@@ -382,7 +382,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇦🇩",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "MC",
@@ -390,7 +390,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇲🇨",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "SM",
@@ -398,7 +398,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇸🇲",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "VA",
@@ -406,7 +406,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇻🇦",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "MA",
@@ -414,7 +414,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇲🇦",
-	  "enabled": 1
+	  "enabled": 0
     },
     {
       "id": "GI",
@@ -422,7 +422,7 @@
       "is_eu": false,
       "is_schengen": false,
       "flag": "🇬🇮",
-	  "enabled": 1
+	  "enabled": 0
     }
   ],
   "phones": [
