@@ -41,7 +41,7 @@
       "message_en": "TEST TEST.",
       "message_bg": "TESTTTTTTTT!",
       "severity": "INFO",
-	  "enabled": 0,
+	  "enabled": 1,
       "country_ids": "ALL"
     }
   ],
