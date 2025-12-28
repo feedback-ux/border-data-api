@@ -447,7 +447,7 @@
       "name": "Bulgaria - Greece",
       "country_a_id": "BG",
       "country_b_id": "GR",
-      "status": "BUSY",
+      "status": 1,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -464,7 +464,7 @@
       "name": "Bulgaria - Turkey",
       "country_a_id": "BG",
       "country_b_id": "TR",
-      "status": "CLOSED",
+      "status": 2,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -481,7 +481,7 @@
       "name": "Andorra – Spain",
       "country_a_id": "AD",
       "country_b_id": "ES",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -498,7 +498,7 @@
       "name": "Andorra – France",
       "country_a_id": "AD",
       "country_b_id": "FR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -515,7 +515,7 @@
       "name": "Albania – Greece",
       "country_a_id": "AL",
       "country_b_id": "GR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -532,7 +532,7 @@
       "name": "Albania – Montenegro",
       "country_a_id": "AL",
       "country_b_id": "ME",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -549,7 +549,7 @@
       "name": "Albania – North Macedonia",
       "country_a_id": "AL",
       "country_b_id": "MK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -566,7 +566,7 @@
       "name": "Albania – Kosovo",
       "country_a_id": "AL",
       "country_b_id": "XK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -583,7 +583,7 @@
       "name": "Austria – Switzerland",
       "country_a_id": "AT",
       "country_b_id": "CH",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -600,7 +600,7 @@
       "name": "Austria – Czechia",
       "country_a_id": "AT",
       "country_b_id": "CZ",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -617,7 +617,7 @@
       "name": "Austria – Germany",
       "country_a_id": "AT",
       "country_b_id": "DE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -634,7 +634,7 @@
       "name": "Austria – Hungary",
       "country_a_id": "AT",
       "country_b_id": "HU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -651,7 +651,7 @@
       "name": "Austria – Italy",
       "country_a_id": "AT",
       "country_b_id": "IT",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -668,7 +668,7 @@
       "name": "Austria – Liechtenstein",
       "country_a_id": "AT",
       "country_b_id": "LI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -685,7 +685,7 @@
       "name": "Austria – Slovenia",
       "country_a_id": "AT",
       "country_b_id": "SI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -702,7 +702,7 @@
       "name": "Austria – Slovakia",
       "country_a_id": "AT",
       "country_b_id": "SK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -719,7 +719,7 @@
       "name": "Bosnia and Herzegovina – Croatia",
       "country_a_id": "BA",
       "country_b_id": "HR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -736,7 +736,7 @@
       "name": "Bosnia and Herzegovina – Montenegro",
       "country_a_id": "BA",
       "country_b_id": "ME",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -753,7 +753,7 @@
       "name": "Bosnia and Herzegovina – Serbia",
       "country_a_id": "BA",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -770,7 +770,7 @@
       "name": "Belgium – Germany",
       "country_a_id": "BE",
       "country_b_id": "DE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -787,7 +787,7 @@
       "name": "Belgium – France",
       "country_a_id": "BE",
       "country_b_id": "FR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -804,7 +804,7 @@
       "name": "Belgium – Luxembourg",
       "country_a_id": "BE",
       "country_b_id": "LU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -821,7 +821,7 @@
       "name": "Belgium – Netherlands",
       "country_a_id": "BE",
       "country_b_id": "NL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -838,7 +838,7 @@
       "name": "Bulgaria – North Macedonia",
       "country_a_id": "BG",
       "country_b_id": "MK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -855,7 +855,7 @@
       "name": "Ruse – Giurgiu (Danube Bridge)",
       "country_a_id": "BG",
       "country_b_id": "RO",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -872,7 +872,7 @@
       "name": "Bulgaria – Serbia",
       "country_a_id": "BG",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -889,7 +889,7 @@
       "name": "Belarus – Lithuania",
       "country_a_id": "BY",
       "country_b_id": "LT",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -906,7 +906,7 @@
       "name": "Belarus – Latvia",
       "country_a_id": "BY",
       "country_b_id": "LV",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -923,7 +923,7 @@
       "name": "Belarus – Poland",
       "country_a_id": "BY",
       "country_b_id": "PL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -940,7 +940,7 @@
       "name": "Belarus – Russia",
       "country_a_id": "BY",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -957,7 +957,7 @@
       "name": "Belarus – Ukraine",
       "country_a_id": "BY",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -974,7 +974,7 @@
       "name": "Switzerland – Germany",
       "country_a_id": "CH",
       "country_b_id": "DE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -991,7 +991,7 @@
       "name": "Switzerland – France",
       "country_a_id": "CH",
       "country_b_id": "FR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1008,7 +1008,7 @@
       "name": "Switzerland – Italy",
       "country_a_id": "CH",
       "country_b_id": "IT",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1025,7 +1025,7 @@
       "name": "Switzerland – Liechtenstein",
       "country_a_id": "CH",
       "country_b_id": "LI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1042,7 +1042,7 @@
       "name": "Czechia – Germany",
       "country_a_id": "CZ",
       "country_b_id": "DE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1059,7 +1059,7 @@
       "name": "Czechia – Poland",
       "country_a_id": "CZ",
       "country_b_id": "PL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1076,7 +1076,7 @@
       "name": "Czechia – Slovakia",
       "country_a_id": "CZ",
       "country_b_id": "SK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1093,7 +1093,7 @@
       "name": "Germany – Denmark",
       "country_a_id": "DE",
       "country_b_id": "DK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1110,7 +1110,7 @@
       "name": "Germany – France",
       "country_a_id": "DE",
       "country_b_id": "FR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1127,7 +1127,7 @@
       "name": "Germany – Luxembourg",
       "country_a_id": "DE",
       "country_b_id": "LU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1144,7 +1144,7 @@
       "name": "Germany – Netherlands",
       "country_a_id": "DE",
       "country_b_id": "NL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1161,7 +1161,7 @@
       "name": "Germany – Poland",
       "country_a_id": "DE",
       "country_b_id": "PL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1178,7 +1178,7 @@
       "name": "Estonia – Latvia",
       "country_a_id": "EE",
       "country_b_id": "LV",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1195,7 +1195,7 @@
       "name": "Estonia – Russia",
       "country_a_id": "EE",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1212,7 +1212,7 @@
       "name": "Spain – France",
       "country_a_id": "ES",
       "country_b_id": "FR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1229,7 +1229,7 @@
       "name": "Spain – Gibraltar",
       "country_a_id": "ES",
       "country_b_id": "GI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1246,7 +1246,7 @@
       "name": "Spain – Morocco",
       "country_a_id": "ES",
       "country_b_id": "MA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1263,7 +1263,7 @@
       "name": "Spain – Portugal",
       "country_a_id": "ES",
       "country_b_id": "PT",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1280,7 +1280,7 @@
       "name": "Finland – Norway",
       "country_a_id": "FI",
       "country_b_id": "NO",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1297,7 +1297,7 @@
       "name": "Finland – Russia",
       "country_a_id": "FI",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1314,7 +1314,7 @@
       "name": "Finland – Sweden",
       "country_a_id": "FI",
       "country_b_id": "SE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1331,7 +1331,7 @@
       "name": "France – United Kingdom",
       "country_a_id": "FR",
       "country_b_id": "GB",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1348,7 +1348,7 @@
       "name": "France – Italy",
       "country_a_id": "FR",
       "country_b_id": "IT",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1365,7 +1365,7 @@
       "name": "France – Luxembourg",
       "country_a_id": "FR",
       "country_b_id": "LU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1382,7 +1382,7 @@
       "name": "France – Monaco",
       "country_a_id": "FR",
       "country_b_id": "MC",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1399,7 +1399,7 @@
       "name": "United Kingdom – Gibraltar",
       "country_a_id": "GB",
       "country_b_id": "GI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1416,7 +1416,7 @@
       "name": "United Kingdom – Ireland",
       "country_a_id": "GB",
       "country_b_id": "IE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1433,7 +1433,7 @@
       "name": "Greece – North Macedonia",
       "country_a_id": "GR",
       "country_b_id": "MK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1450,7 +1450,7 @@
       "name": "Greece – Turkey",
       "country_a_id": "GR",
       "country_b_id": "TR",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1467,7 +1467,7 @@
       "name": "Croatia – Hungary",
       "country_a_id": "HR",
       "country_b_id": "HU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1484,7 +1484,7 @@
       "name": "Croatia – Montenegro",
       "country_a_id": "HR",
       "country_b_id": "ME",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1501,7 +1501,7 @@
       "name": "Croatia – Serbia",
       "country_a_id": "HR",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1518,7 +1518,7 @@
       "name": "Croatia – Slovenia",
       "country_a_id": "HR",
       "country_b_id": "SI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1535,7 +1535,7 @@
       "name": "Hungary – Romania",
       "country_a_id": "HU",
       "country_b_id": "RO",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1552,7 +1552,7 @@
       "name": "Hungary – Serbia",
       "country_a_id": "HU",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1569,7 +1569,7 @@
       "name": "Hungary – Slovenia",
       "country_a_id": "HU",
       "country_b_id": "SI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1586,7 +1586,7 @@
       "name": "Hungary – Slovakia",
       "country_a_id": "HU",
       "country_b_id": "SK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1603,7 +1603,7 @@
       "name": "Hungary – Ukraine",
       "country_a_id": "HU",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1620,7 +1620,7 @@
       "name": "Italy – Slovenia",
       "country_a_id": "IT",
       "country_b_id": "SI",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1637,7 +1637,7 @@
       "name": "Italy – San Marino",
       "country_a_id": "IT",
       "country_b_id": "SM",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1654,7 +1654,7 @@
       "name": "Italy – Vatican City",
       "country_a_id": "IT",
       "country_b_id": "VA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1671,7 +1671,7 @@
       "name": "Lithuania – Latvia",
       "country_a_id": "LT",
       "country_b_id": "LV",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1688,7 +1688,7 @@
       "name": "Lithuania – Poland",
       "country_a_id": "LT",
       "country_b_id": "PL",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1705,7 +1705,7 @@
       "name": "Lithuania – Russia",
       "country_a_id": "LT",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1722,7 +1722,7 @@
       "name": "Latvia – Russia",
       "country_a_id": "LV",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1739,7 +1739,7 @@
       "name": "Moldova – Romania",
       "country_a_id": "MD",
       "country_b_id": "RO",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1756,7 +1756,7 @@
       "name": "Moldova – Ukraine",
       "country_a_id": "MD",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1773,7 +1773,7 @@
       "name": "Montenegro – Serbia",
       "country_a_id": "ME",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1790,7 +1790,7 @@
       "name": "Montenegro – Kosovo",
       "country_a_id": "ME",
       "country_b_id": "XK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1807,7 +1807,7 @@
       "name": "North Macedonia – Serbia",
       "country_a_id": "MK",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1824,7 +1824,7 @@
       "name": "North Macedonia – Kosovo",
       "country_a_id": "MK",
       "country_b_id": "XK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1841,7 +1841,7 @@
       "name": "Norway – Russia",
       "country_a_id": "NO",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1858,7 +1858,7 @@
       "name": "Norway – Sweden",
       "country_a_id": "NO",
       "country_b_id": "SE",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1875,7 +1875,7 @@
       "name": "Poland – Russia",
       "country_a_id": "PL",
       "country_b_id": "RU",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1892,7 +1892,7 @@
       "name": "Poland – Slovakia",
       "country_a_id": "PL",
       "country_b_id": "SK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1909,7 +1909,7 @@
       "name": "Poland – Ukraine",
       "country_a_id": "PL",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1926,7 +1926,7 @@
       "name": "Romania – Serbia",
       "country_a_id": "RO",
       "country_b_id": "RS",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1943,7 +1943,7 @@
       "name": "Romania – Ukraine",
       "country_a_id": "RO",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1960,7 +1960,7 @@
       "name": "Serbia – Kosovo",
       "country_a_id": "RS",
       "country_b_id": "XK",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1977,7 +1977,7 @@
       "name": "Russia – Ukraine",
       "country_a_id": "RU",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -1994,7 +1994,7 @@
       "name": "Slovakia – Ukraine",
       "country_a_id": "SK",
       "country_b_id": "UA",
-      "status": "open",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2011,7 +2011,7 @@
       "name": "Vidin – Calafat (Danube Bridge II)",
       "country_a_id": "BG",
       "country_b_id": "RO",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2028,7 +2028,7 @@
       "name": "Makaza – Nymfaia",
       "country_a_id": "BG",
       "country_b_id": "GR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2045,7 +2045,7 @@
       "name": "Ilinden – Exochi",
       "country_a_id": "BG",
       "country_b_id": "GR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2062,7 +2062,7 @@
       "name": "Kalotina – Gradina",
       "country_a_id": "BG",
       "country_b_id": "RS",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2079,7 +2079,7 @@
       "name": "Gyueshevo – Deve Bair",
       "country_a_id": "BG",
       "country_b_id": "MK",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2096,7 +2096,7 @@
       "name": "Kipoi – İpsala",
       "country_a_id": "GR",
       "country_b_id": "TR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2113,7 +2113,7 @@
       "name": "Nădlac – Csanádpalota",
       "country_a_id": "HU",
       "country_b_id": "RO",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2130,7 +2130,7 @@
       "name": "Röszke – Horgoš",
       "country_a_id": "HU",
       "country_b_id": "RS",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2147,7 +2147,7 @@
       "name": "Záhony – Chop",
       "country_a_id": "HU",
       "country_b_id": "UA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2164,7 +2164,7 @@
       "name": "Rajka – Rusovce",
       "country_a_id": "HU",
       "country_b_id": "SK",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2181,7 +2181,7 @@
       "name": "Brenner – Brennero",
       "country_a_id": "AT",
       "country_b_id": "IT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2198,7 +2198,7 @@
       "name": "Salzburg – Freilassing (A1)",
       "country_a_id": "AT",
       "country_b_id": "DE",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2215,7 +2215,7 @@
       "name": "Nickelsdorf – Hegyeshalom (A4/M1)",
       "country_a_id": "AT",
       "country_b_id": "HU",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2232,7 +2232,7 @@
       "name": "Drasenhofen – Mikulov (A5/D52)",
       "country_a_id": "AT",
       "country_b_id": "CZ",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2249,7 +2249,7 @@
       "name": "Berg – Bratislava (A6/D4)",
       "country_a_id": "AT",
       "country_b_id": "SK",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2266,7 +2266,7 @@
       "name": "Spielfeld – Šentilj (A9)",
       "country_a_id": "AT",
       "country_b_id": "SI",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2283,7 +2283,7 @@
       "name": "La Jonquera – Le Perthus",
       "country_a_id": "FR",
       "country_b_id": "ES",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2300,7 +2300,7 @@
       "name": "Mont Blanc Tunnel (Chamonix – Courmayeur)",
       "country_a_id": "FR",
       "country_b_id": "IT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2317,7 +2317,7 @@
       "name": "Ventimiglia – Menton",
       "country_a_id": "FR",
       "country_b_id": "IT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2334,7 +2334,7 @@
       "name": "Vilar Formoso – Fuentes de Oñoro",
       "country_a_id": "ES",
       "country_b_id": "PT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2351,7 +2351,7 @@
       "name": "Valença – Tui (A3/AP-9)",
       "country_a_id": "ES",
       "country_b_id": "PT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2368,7 +2368,7 @@
       "name": "Frankfurt (Oder) – Słubice (A12/A2)",
       "country_a_id": "DE",
       "country_b_id": "PL",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2385,7 +2385,7 @@
       "name": "Görlitz – Zgorzelec (A4)",
       "country_a_id": "DE",
       "country_b_id": "PL",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2402,7 +2402,7 @@
       "name": "Świecko – Frankfurt (Oder) (A2)",
       "country_a_id": "DE",
       "country_b_id": "PL",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2419,7 +2419,7 @@
       "name": "Flensburg – Kruså (E45)",
       "country_a_id": "DE",
       "country_b_id": "DK",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2436,7 +2436,7 @@
       "name": "Svinesund Bridge (E6)",
       "country_a_id": "SE",
       "country_b_id": "NO",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2453,7 +2453,7 @@
       "name": "Kilpisjärvi – Skibotn (E8)",
       "country_a_id": "FI",
       "country_b_id": "NO",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2470,7 +2470,7 @@
       "name": "Chiasso – Como",
       "country_a_id": "CH",
       "country_b_id": "IT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2487,7 +2487,7 @@
       "name": "Basel – Saint-Louis",
       "country_a_id": "CH",
       "country_b_id": "FR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2504,7 +2504,7 @@
       "name": "Basel – Weil am Rhein",
       "country_a_id": "CH",
       "country_b_id": "DE",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2521,7 +2521,7 @@
       "name": "St. Margrethen – Höchst",
       "country_a_id": "CH",
       "country_b_id": "AT",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2538,7 +2538,7 @@
       "name": "Medyka – Shehyni",
       "country_a_id": "PL",
       "country_b_id": "UA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2555,7 +2555,7 @@
       "name": "Korczowa – Krakovets",
       "country_a_id": "PL",
       "country_b_id": "UA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2572,7 +2572,7 @@
       "name": "Vyšné Nemecké – Uzhhorod",
       "country_a_id": "SK",
       "country_b_id": "UA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2589,7 +2589,7 @@
       "name": "Siret – Porubne",
       "country_a_id": "RO",
       "country_b_id": "UA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2606,7 +2606,7 @@
       "name": "Porțile de Fier I (Drobeta-Turnu Severin)",
       "country_a_id": "RO",
       "country_b_id": "RS",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2623,7 +2623,7 @@
       "name": "Albița – Leușeni",
       "country_a_id": "MD",
       "country_b_id": "RO",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2640,7 +2640,7 @@
       "name": "Bajakovo – Batrovci (E70)",
       "country_a_id": "HR",
       "country_b_id": "RS",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2657,7 +2657,7 @@
       "name": "Bregana – Obrežje (A2/E70)",
       "country_a_id": "SI",
       "country_b_id": "HR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2674,7 +2674,7 @@
       "name": "Stara Gradiška – Gradiška",
       "country_a_id": "HR",
       "country_b_id": "BA",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2691,7 +2691,7 @@
       "name": "Fernetti – Sežana",
       "country_a_id": "IT",
       "country_b_id": "SI",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2708,7 +2708,7 @@
       "name": "Antwerp – Breda (E19)",
       "country_a_id": "NL",
       "country_b_id": "BE",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2725,7 +2725,7 @@
       "name": "Lille – Tournai (E17/A27)",
       "country_a_id": "BE",
       "country_b_id": "FR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
@@ -2742,7 +2742,7 @@
       "name": "Dover – Calais (Ferry/Eurotunnel)",
       "country_a_id": "GB",
       "country_b_id": "FR",
-      "status": "OPEN",
+      "status": 0,
       "cameras": [
         {
           "title": "Dummy Camera A",
