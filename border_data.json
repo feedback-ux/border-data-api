@@ -9,7 +9,7 @@
       "title_en": "Road Works: Kulata",
       "title_bg": "Ремонт: Кулата",
       "message_en": "One lane is closed. Expect delays....:)",
-      "message_bg": "Едната лента е затворена. Очаквайте забавяния.",
+      "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
       "country_ids": "BG,GR"
     },
@@ -18,7 +18,7 @@
       "title_en": "System Update",
       "title_bg": "Обновяване на системата",
       "message_en": "We are updating camera sources. Some streams might be offline.",
-      "message_bg": "Актуализираме източниците на камерите. Възможно е някои потоци да са офлайн.",
+      "message_bg": "Актуализираме източниците на камерите. Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
       "country_ids": "GLOBAL"
     }
@@ -431,7 +431,7 @@
   "crossings": [
     {
       "id": "BG-GR-01",
-      "name": "Bulgaria - Greece3",
+      "name": "Bulgaria - Greece",
       "country_a_id": "BG",
       "country_b_id": "GR",
       "status": "BUSY",
