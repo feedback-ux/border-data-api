@@ -21,7 +21,7 @@
       "message_en": "One lane is closed. Expect delays!",
       "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
-	  "enabled": 1,
+	  "enabled": 0,
       "country_ids": "BG,GR"
     },
     {
