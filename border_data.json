@@ -32,7 +32,7 @@
       "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
 	  "enabled": 1,
-      "country_ids": "GLOBAL"
+      "country_ids": "ALL"
     },
 	{
       "id": "alert_system_check1",
@@ -42,7 +42,7 @@
       "message_bg": "TESTTTTTTTT!",
       "severity": "INFO",
 	  "enabled": 1,
-      "country_ids": "GLOBAL"
+      "country_ids": "ALL"
     }
   ],
   "countries": [
