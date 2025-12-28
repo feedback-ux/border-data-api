@@ -22,7 +22,7 @@
       "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
 	  "enabled": 1,
-      "country_ids": "АЛЛ"
+      "country_ids": "ALL"
     }
   ],
   "countries": [
