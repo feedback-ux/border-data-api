@@ -11,6 +11,7 @@
       "message_en": "One lane is closed. Expect delays!",
       "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
+	  "enabled": 1,
       "country_ids": "BG,GR"
     },
     {
@@ -20,7 +21,8 @@
       "message_en": "We are updating camera sources. Some streams might be offline.",
       "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
-      "country_ids": "GLOBAL"
+	  "enabled": 1,
+      "country_ids": "АЛЛ"
     }
   ],
   "countries": [
@@ -472,7 +474,8 @@
       "title_bg": "Необходими документи (ЕС/Шенген)",
       "content_en": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
       "content_bg": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
-      "country_ids": "EU"
+      "country_ids": "EU",
+	  "enabled": 1
     },
     {
       "id": "vignette_bg",
@@ -480,7 +483,8 @@
       "title_bg": "Правила за винетки: България",
       "content_en": "All vehicles must have a valid e-vignette...",
       "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
-      "country_ids": "BG"
+      "country_ids": "BG",
+	  "enabled": 1
     },
     {
       "id": "speed_gr",
@@ -488,7 +492,8 @@
       "title_bg": "Скорост: Гърция",
       "content_en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
       "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
-      "country_ids": "GR"
+      "country_ids": "GR",
+	  "enabled": 1
     }
   ],
   "crossings": [
