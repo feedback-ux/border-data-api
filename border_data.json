@@ -24,7 +24,7 @@
     }
   ],
   "countries": [
-    {
+     {
       "id": "EU",
       "name": "European Union",
       "is_eu": true,
