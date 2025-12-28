@@ -431,7 +431,7 @@
   "crossings": [
     {
       "id": "BG-GR-01",
-      "name": "Bulgaria - Greece",
+      "name": "Bulgaria - Greece1",
       "country_a_id": "BG",
       "country_b_id": "GR",
       "status": "BUSY",
@@ -448,7 +448,7 @@
     },
     {
       "id": "BG-TR-01",
-      "name": "Bulgaria - Turkey123",
+      "name": "Bulgaria - Turkey",
       "country_a_id": "BG",
       "country_b_id": "TR",
       "status": "OPEN",
