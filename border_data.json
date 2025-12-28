@@ -418,20 +418,26 @@
   "articles": [
     {
       "id": "docs_general",
-      "title": "Required Documents (EU/Schengen)",
-      "content": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "title_en": "Required Documents (EU/Schengen)",
+      "title_bg": "Необходими документи (ЕС/Шенген)",
+      "content_en": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "content_bg": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
       "country_ids": "EU"
     },
     {
       "id": "vignette_bg",
-      "title": "Vignette Rules: Bulgaria",
-      "content": "Driving on national roads in Bulgaria requires a valid Vignette (BGTOLL). \n\nYou can buy it online or at the border.",
+      "title_en": "Vignette Rules: Bulgaria",
+      "title_bg": "Правила за винетки: България",
+      "content_en": "All vehicles must have a valid e-vignette...",
+      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
       "country_ids": "BG"
     },
     {
       "id": "speed_gr",
-      "title": "Speed Limits: Greece",
-      "content": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+      "title_en": "Speed Limits: Greece",
+      "title_bg": "Скорост: Гърция",
+      "content_en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
       "country_ids": "GR"
     }
   ],
