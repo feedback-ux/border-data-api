@@ -444,7 +444,7 @@
   "crossings": [
     {
       "id": "BG-GR-01",
-      "name": "Bulgaria - Greece3",
+      "name": "Bulgaria - Greece",
       "country_a_id": "BG",
       "country_b_id": "GR",
       "status": "BUSY",
@@ -464,7 +464,7 @@
       "name": "Bulgaria - Turkey",
       "country_a_id": "BG",
       "country_b_id": "TR",
-      "status": "OPEN",
+      "status": "CLOSED",
       "cameras": [
         {
           "title": "Dummy Camera A",
