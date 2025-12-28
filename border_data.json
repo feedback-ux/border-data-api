@@ -498,78 +498,67 @@
   ],
   "crossings": [
     {
-      "id": "BG-GR-01",
-      "name": "Bulgaria - Greece",
+      "id": "BG-RO-DUNAVMOST",
+      "name": "Ruse - Georgiu",
+      "country_a_id": "BG",
+      "country_b_id": "RO",
+      "status": 1,
+	  "lat": 43.8861,
+	  "lng": 26.0085,
+      "cameras": [
+        {
+          "title": "Camera 1",
+          "url": "http://s19.r145.nbis.net:8081/or-bul-cam4/index.m3u8"
+        },
+        {
+          "title": "Camera 2",
+          "url": "http://s19.r145.nbis.net:8081/or-bul-cam2/index.m3u8"
+        },
+		{
+          "title": "Camera 3",
+          "url": "http://s19.r145.nbis.net:8081/or-bul-cam3/index.m3u8"
+        },
+		{
+          "title": "Camera 4",
+          "url": "http://s19.r145.nbis.net:8081/or-bul-cam2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RS-01",
+      "name": "Kalotina - Gradina",
+      "country_a_id": "BG",
+      "country_b_id": "RS",
+	  "status": 0,
+	  "lat": 42.9974,
+	  "lng": 22.8334,
+      "cameras": [
+        {
+          "title": "Camera 1 - entering BG",
+          "url": "https://kamere.amss.org.rs/gradina2/gradina2.m3u8"
+        },
+        {
+          "title": "Camera 2 - Exit BG",
+          "url": "https://kamere.amss.org.rs/gradina1/gradina1.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "BG-RS-01",
+      "name": "Kulata - Promachonas",
       "country_a_id": "BG",
       "country_b_id": "GR",
-      "status": 1,
-	  "lat": 41.3789, 
-	  "lng": 23.3644,
-      "cameras": [
-        {
-          "title": "Dummy Camera A",
-          "url": "https://example.com/dummy_a.m3u8"
-        },
-        {
-          "title": "Dummy Camera B",
-          "url": "https://example.com/dummy_b.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "BG-TR-01",
-      "name": "Bulgaria - Turkey",
-      "country_a_id": "BG",
-      "country_b_id": "TR",
-      "status": 2,
-	  "lat": 41.7207, 
-	  "lng": 26.3216,
-      "cameras": [
-        {
-          "title": "Dummy Camera A",
-          "url": "https://example.com/dummy_a.m3u8"
-        },
-        {
-          "title": "Dummy Camera B",
-          "url": "https://example.com/dummy_b.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "AD-ES-01",
-      "name": "Andorra – Spain",
-      "country_a_id": "AD",
-      "country_b_id": "ES",
       "status": 0,
-	  "lat": 42.4353, 
-	  "lng": 1.47284, 
+	  "lat": 41.3815,
+	  "lng": 23.3624, 
       "cameras": [
         {
-          "title": "Dummy Camera A",
-          "url": "https://example.com/dummy_a.m3u8"
+          "title": "Camera A",
+          "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_02/cctv.jpg?hash=1766961159117"
         },
         {
-          "title": "Dummy Camera B",
-          "url": "https://example.com/dummy_b.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "FR-GB-02",
-      "name": "Dover – Calais (Ferry/Eurotunnel)",
-      "country_a_id": "GB",
-      "country_b_id": "FR",
-      "status": 0,
-	  "lat": 51.1259, 
-	  "lng": 50.9667,
-      "cameras": [
-        {
-          "title": "Dummy Camera A",
-          "url": "https://example.com/dummy_a.m3u8"
-        },
-        {
-          "title": "Dummy Camera B",
-          "url": "https://example.com/dummy_b.m3u8"
+          "title": "Camera B",
+          "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_01/cctv.jpg?hash=1766961179247"
         }
       ]
     }
