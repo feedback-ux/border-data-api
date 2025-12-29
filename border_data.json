@@ -561,6 +561,19 @@
           "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_01/cctv.jpg?hash=1766961179247"
         }
       ]
-    }
+    },
+	    {
+      "id": "BG-TR-01",
+      "name": "Kapitan Andreevo - Kapıkule",
+      "country_a_id": "BG",
+      "country_b_id": "TR",
+      "status": 2,
+      "lat": 41.718611,
+      "lng": 26.348611,
+      "cameras": [
+        { "title": "TR Lanes", "url": "" },
+        { "title": "BG Lanes", "url": "" }
+      ]
+    },
   ]
 }
