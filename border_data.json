@@ -512,7 +512,7 @@
       "name": "Ruse - Giurgiu",
       "country_a_id": "BG",
       "country_b_id": "RO",
-      "status": 1,
+      "status": 0,
 	  "lat": 43.8861,
 	  "lng": 26.0085,
       "cameras": [
@@ -577,7 +577,7 @@
       "name": "Kapitan Andreevo - Kapıkule",
       "country_a_id": "BG",
       "country_b_id": "TR",
-      "status": 2,
+      "status": 0,
       "lat": 41.7186,
       "lng": 26.3486,
       "cameras": [
@@ -590,7 +590,7 @@
       "name": "Vrashka Chuka",
       "country_a_id": "BG",
       "country_b_id": "RS",
-      "status": 1,
+      "status": 0,
       "lat": 43.941200,
       "lng": 22.828700,
       "cameras": [
