@@ -7,7 +7,7 @@
     {
       "id": "alert_warning",
       "severity": "WARNING",
-      "enabled": 1,
+      "enabled": 0,
       "country_ids": "BG,GR",
       "title_localized": {
         "en": "Road Works: Kulata",
