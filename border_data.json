@@ -5,7 +5,7 @@
   },
   "alerts": [
     {
-      "id": "alert_kulata_repair",
+      "id": "alert_warning",
       "title_en": "Road Works: Kulata",
       "title_bg": "Ремонт: Кулата",
       "message_en": "One lane is closed. Expect delays!",
@@ -25,7 +25,7 @@
       "country_ids": "ALL"
     },
 	{
-      "id": "alert_system_check2",
+      "id": "alert_system_check_2",
       "title_en": "System Update",
       "title_bg": "Обновяване на системата",
       "message_en": "We are updating camera sources. Some streams might be offline.",
