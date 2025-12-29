@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 2,
-    "published_at": "2025-12-29T11:34:55Z"
+    "published_at": "2025-12-29T21:34:55Z"
   },
   "alerts": [
     {
@@ -583,6 +583,19 @@
       "cameras": [
         { "title": "TR Lanes", "url": "" },
         { "title": "BG Lanes", "url": "" }
+      ]
+    },
+	{
+      "id": "BG-RS-03",
+      "name": "Vrashka Chuka",
+      "country_a_id": "BG",
+      "country_b_id": "RS",
+      "status": 1,
+      "lat": 43.941200,
+      "lng": 22.828700,
+      "cameras": [
+        { "title": "Entry - BG", "url": "https://home-solutions.bg/cams/chuka2.jpg?1767038267587" },
+        { "title": "Exit - BG", "url": "https://home-solutions.bg/cams/chuka1.jpg?1767037947121" }
       ]
     }
   ]
