@@ -11,7 +11,7 @@
       "message_en": "One lane is closed. Expect delays!",
       "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
-	  "enabled": 0,
+	  "enabled": 1,
       "country_ids": "BG,GR"
     },
     {
@@ -21,7 +21,7 @@
       "message_en": "We are updating camera sources. Some streams might be offline.",
       "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
-	  "enabled": 0,
+	  "enabled": 1,
       "country_ids": "ALL"
     },
 	{
