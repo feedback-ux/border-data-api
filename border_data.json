@@ -6,33 +6,57 @@
   "alerts": [
     {
       "id": "alert_warning",
-      "title_en": "Road Works: Kulata",
-      "title_bg": "Ремонт: Кулата",
-      "message_en": "One lane is closed. Expect delays!",
-      "message_bg": "Едната лента е затворена. Очаквайте забавяния!",
       "severity": "WARNING",
-	  "enabled": 0,
-      "country_ids": "BG,GR"
+      "enabled": 1,
+      "country_ids": "BG,GR",
+      "title_localized": {
+        "en": "Road Works: Kulata",
+        "bg": "Ремонт: Кулата",
+        "ro": "Lucrări rutiere: Kulata",
+        "tr": "Yol Çalışmaları: Kulata"
+      },
+      "message_localized": {
+        "en": "One lane is closed. Expect delays!",
+        "bg": "Едната лента е затворена. Очаквайте забавяния!",
+        "ro": "O bandă este închisă. Așteptați-vă la întârzieri!",
+        "tr": "Bir şerit kapalı. Gecikmeler bekleniyor!"
+      }
     },
     {
       "id": "alert_system_check",
-      "title_en": "System Update",
-      "title_bg": "Обновяване на системата",
-      "message_en": "We are updating camera sources. Some streams might be offline.",
-      "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
 	  "enabled": 0,
-      "country_ids": "ALL"
+      "country_ids": "ALL",
+	  "title_localized": {
+        "en": "System Update ТЕСТ",
+        "bg": "Обновяване на системата ТЕСТ",
+        "ro": "Lucrări rutiere: Kulata",
+        "tr": "Yol Çalışmaları: Kulata"
+      },
+      "message_localized": {
+        "en": "We are updating camera sources. Some streams might be offline.",
+        "bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
+        "ro": "O bandă este închisă. Așteptați-vă la întârzieri!",
+        "tr": "Bir şerit kapalı. Gecikmeler bekleniyor!"
+      }
     },
 	{
       "id": "alert_system_check_2",
-      "title_en": "System Update",
-      "title_bg": "Обновяване на системата",
-      "message_en": "We are updating camera sources. Some streams might be offline.",
-      "message_bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
       "severity": "INFO",
 	  "enabled": 0,
-      "country_ids": "ALL"
+      "country_ids": "ALL",
+	  "title_localized": {
+        "en": "System Update ТЕСТ",
+        "bg": "Обновяване на системата ТЕСТ",
+        "ro": "Lucrări rutiere: Kulata",
+        "tr": "Yol Çalışmaları: Kulata"
+      },
+      "message_localized": {
+        "en": "We are updating camera sources. Some streams might be offline.",
+        "bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
+        "ro": "O bandă este închisă. Așteptați-vă la întârzieri!",
+        "tr": "Bir şerit kapalı. Gecikmeler bekleniyor!"
+      }
     }
   ],
   "countries": [
