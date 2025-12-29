@@ -568,8 +568,8 @@
       "country_a_id": "BG",
       "country_b_id": "TR",
       "status": 2,
-      "lat": 41.718611,
-      "lng": 26.348611,
+      "lat": 41.7186,
+      "lng": 26.3486,
       "cameras": [
         { "title": "TR Lanes", "url": "" },
         { "title": "BG Lanes", "url": "" }
