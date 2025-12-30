@@ -806,7 +806,7 @@
     }
   ],
   "articles": [
-    {
+      {
       "id": "docs_general",
       "title_localized": {
         "en": "Required Documents (EU/Schengen)",
