@@ -462,44 +462,56 @@
     }
   ],
   "phones": [
-    { "country_id": "AT", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "AT", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "133" },
-    { "country_id": "AT", "category": "Road", "name_en": "Road Assistance (ÖAMTC)", "name_bg": "Пътна помощ", "number": "120" },
-    { "country_id": "BE", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "BG", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "BG", "category": "Police", "name_en": "Border Police", "name_bg": "Гранична полиция", "number": "+35929831865" },
-    { "country_id": "BG", "category": "Road", "name_en": "Road Assistance (UAB)", "name_bg": "Пътна помощ (СБА)", "number": "146" },
-    { "country_id": "CH", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "CH", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "117" },
-    { "country_id": "DE", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "DE", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "110" },
-    { "country_id": "DE", "category": "Road", "name_en": "Road Assistance (ADAC)", "name_bg": "Пътна помощ", "number": "+4989222222" },
-    { "country_id": "ES", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "ES", "category": "Police", "name_en": "National Police", "name_bg": "Национална полиция", "number": "091" },
-    { "country_id": "FR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "FR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "17" },
-    { "country_id": "GB", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "999" },
-    { "country_id": "GR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "GR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "100" },
-    { "country_id": "GR", "category": "Road", "name_en": "Road Assistance (ELPA)", "name_bg": "Пътна помощ", "number": "10400" },
-    { "country_id": "HR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "HU", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "HU", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "107" },
-    { "country_id": "IT", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "IT", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "113" },
-    { "country_id": "MK", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "MK", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "192" },
-    { "country_id": "NL", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "PL", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "RO", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "RO", "category": "Police", "name_en": "Border Police", "name_bg": "Гранична полиция", "number": "+40219590" },
-    { "country_id": "RS", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "RS", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "192" },
-    { "country_id": "RS", "category": "Road", "name_en": "Road Assistance (AMSS)", "name_bg": "Пътна помощ", "number": "1987" },
-    { "country_id": "TR", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" },
-    { "country_id": "TR", "category": "Police", "name_en": "Police", "name_bg": "Полиция", "number": "155" },
-    { "country_id": "TR", "category": "Road", "name_en": "Road Assistance", "name_bg": "Пътна помощ", "number": "154" },
-    { "country_id": "UA", "category": "Emergency", "name_en": "Emergency", "name_bg": "Спешен номер", "number": "112" }
+	{
+      "country_id": "AT",
+      "category": "Emergency",
+      "name_localized": {
+        "en": "Emergency",
+        "bg": "Спешен номер",
+        "ro": "Urgență"
+      },
+      "number": "112"
+    },
+	{
+      "country_id": "АТ",
+      "category": "Police",
+      "name_localized": {
+        "en": "Police",
+        "bg": "Полиция",
+        "ro": "Policia"
+      },
+      "number": "133"
+    },
+	{
+      "country_id": "BG",
+      "category": "Emergency",
+      "name_localized": {
+        "en": "Emergency",
+        "bg": "Спешен номер",
+        "ro": "Пътна помощ"
+      },
+      "number": "112"
+    },
+	{
+      "country_id": "BG",
+      "category": "Police",
+      "name_localized": {
+        "en": "Border Police",
+        "bg": "Гранична полиция",
+        "ro": "Пътна помощ"
+      },
+      "number": "+35929831865"
+    },
+	{
+      "country_id": "BG",
+      "category": "Road",
+      "name_localized": {
+        "en": "Road Assistance (СБА)",
+        "bg": "Пътна помощ",
+        "ro": "Пътна помощ"
+      },
+      "number": "146"
+    }
   ],
   "articles": [
     {
