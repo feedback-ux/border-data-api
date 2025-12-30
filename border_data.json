@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": 2,
-    "published_at": "2025-12-29T22:34:55Z"
+    "published_at": "2025-12-30T15:30:00Z"
   },
   "alerts": [
     {
@@ -25,491 +25,98 @@
     {
       "id": "alert_system_check",
       "severity": "INFO",
-	  "enabled": 0,
+      "enabled": 0,
       "country_ids": "ALL",
-	  "title_localized": {
-        "en": "System Update ТЕСТ",
-        "bg": "Обновяване на системата ТЕСТ",
-        "ro": "Lucrări rutiere: Kulata",
-        "tr": "Yol Çalışmaları: Kulata"
+      "title_localized": {
+        "en": "System Update",
+        "bg": "Обновяване на системата",
+        "ro": "Actualizare sistem",
+        "tr": "Sistem Güncellemesi"
       },
       "message_localized": {
         "en": "We are updating camera sources. Some streams might be offline.",
         "bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
-        "ro": "O bandă este închisă. Așteptați-vă la întârzieri!",
-        "tr": "Bir şerit kapalı. Gecikmeler bekleniyor!"
-      }
-    },
-	{
-      "id": "alert_system_check_2",
-      "severity": "INFO",
-	  "enabled": 0,
-      "country_ids": "ALL",
-	  "title_localized": {
-        "en": "System Update ТЕСТ",
-        "bg": "Обновяване на системата ТЕСТ",
-        "ro": "Lucrări rutiere: Kulata",
-        "tr": "Yol Çalışmaları: Kulata"
-      },
-      "message_localized": {
-        "en": "We are updating camera sources. Some streams might be offline.",
-        "bg": "Актуализираме източниците на камерите! Възможно е някои потоци да са офлайн!",
-        "ro": "O bandă este închisă. Așteptați-vă la întârzieri!",
-        "tr": "Bir şerit kapalı. Gecikmeler bekleniyor!"
+        "ro": "Actualizăm sursele camerelor.",
+        "tr": "Kamera kaynaklarını güncelliyoruz."
       }
     }
   ],
   "countries": [
-     {
-      "id": "EU",
-      "name": "European Union",
-      "is_eu": true,
-      "is_schengen": false,
-      "flag": "🇪🇺",
-	  "enabled": 1
-    },
-    {
-      "id": "AT",
-      "name": "Austria",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇦🇹",
-	  "enabled": 1
-    },
-    {
-      "id": "BE",
-      "name": "Belgium",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇧🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "BG",
-      "name": "Bulgaria",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇧🇬",
-	  "enabled": 1
-    },
-    {
-      "id": "HR",
-      "name": "Croatia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇭🇷",
-	  "enabled": 1
-    },
-    {
-      "id": "CY",
-      "name": "Cyprus",
-      "is_eu": true,
-      "is_schengen": false,
-      "flag": "🇨🇾",
-	  "enabled": 1
-    },
-    {
-      "id": "CZ",
-      "name": "Czechia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇨🇿",
-	  "enabled": 1
-    },
-    {
-      "id": "DK",
-      "name": "Denmark",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇩🇰",
-	  "enabled": 1
-    },
-    {
-      "id": "EE",
-      "name": "Estonia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇪🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "FI",
-      "name": "Finland",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇫🇮",
-	  "enabled": 1
-    },
-    {
-      "id": "FR",
-      "name": "France",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇫🇷",
-	  "enabled": 1
-    },
-    {
-      "id": "DE",
-      "name": "Germany",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇩🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "GR",
-      "name": "Greece",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇬🇷",
-	  "enabled": 1
-    },
-    {
-      "id": "HU",
-      "name": "Hungary",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇭🇺",
-	  "enabled": 1
-    },
-    {
-      "id": "IE",
-      "name": "Ireland",
-      "is_eu": true,
-      "is_schengen": false,
-      "flag": "🇮🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "IT",
-      "name": "Italy",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇮🇹",
-	  "enabled": 1
-    },
-    {
-      "id": "LV",
-      "name": "Latvia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇱🇻",
-	  "enabled": 1
-    },
-    {
-      "id": "LT",
-      "name": "Lithuania",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇱🇹",
-	  "enabled": 1
-    },
-    {
-      "id": "LU",
-      "name": "Luxembourg",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇱🇺",
-	  "enabled": 1
-    },
-    {
-      "id": "MT",
-      "name": "Malta",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇲🇹",
-	  "enabled": 1
-    },
-    {
-      "id": "NL",
-      "name": "Netherlands",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇳🇱",
-	  "enabled": 1
-    },
-    {
-      "id": "PL",
-      "name": "Poland",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇵🇱",
-	  "enabled": 1
-    },
-    {
-      "id": "PT",
-      "name": "Portugal",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇵🇹",
-	  "enabled": 1
-    },
-    {
-      "id": "RO",
-      "name": "Romania",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇷🇴",
-	  "enabled": 1
-    },
-    {
-      "id": "SK",
-      "name": "Slovakia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇸🇰",
-	  "enabled": 1
-    },
-    {
-      "id": "SI",
-      "name": "Slovenia",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇸🇮",
-	  "enabled": 1
-    },
-    {
-      "id": "ES",
-      "name": "Spain",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇪🇸",
-	  "enabled": 1
-    },
-    {
-      "id": "SE",
-      "name": "Sweden",
-      "is_eu": true,
-      "is_schengen": true,
-      "flag": "🇸🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "IS",
-      "name": "Iceland",
-      "is_eu": false,
-      "is_schengen": true,
-      "flag": "🇮🇸",
-	  "enabled": 1
-    },
-    {
-      "id": "NO",
-      "name": "Norway",
-      "is_eu": false,
-      "is_schengen": true,
-      "flag": "🇳🇴",
-	  "enabled": 1
-    },
-    {
-      "id": "CH",
-      "name": "Switzerland",
-      "is_eu": false,
-      "is_schengen": true,
-      "flag": "🇨🇭",
-	  "enabled": 1
-    },
-    {
-      "id": "LI",
-      "name": "Liechtenstein",
-      "is_eu": false,
-      "is_schengen": true,
-      "flag": "🇱🇮",
-	  "enabled": 1
-    },
-    {
-      "id": "GB",
-      "name": "United Kingdom",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇬🇧",
-	  "enabled": 1
-    },
-    {
-      "id": "TR",
-      "name": "Turkey",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇹🇷",
-	  "enabled": 1
-    },
-    {
-      "id": "RS",
-      "name": "Serbia",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇷🇸",
-	  "enabled": 1
-    },
-    {
-      "id": "MK",
-      "name": "North Macedonia",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇲🇰",
-	  "enabled": 1
-    },
-    {
-      "id": "AL",
-      "name": "Albania",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇦🇱",
-	  "enabled": 1
-    },
-    {
-      "id": "BA",
-      "name": "Bosnia and Herzegovina",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇧🇦",
-	  "enabled": 1
-    },
-    {
-      "id": "ME",
-      "name": "Montenegro",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇲🇪",
-	  "enabled": 1
-    },
-    {
-      "id": "XK",
-      "name": "Kosovo",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇽🇰",
-	  "enabled": 1
-    },
-    {
-      "id": "MD",
-      "name": "Moldova",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇲🇩",
-	  "enabled": 1
-    },
-    {
-      "id": "UA",
-      "name": "Ukraine",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇺🇦",
-	  "enabled": 1
-    },
-    {
-      "id": "BY",
-      "name": "Belarus",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇧🇾",
-	  "enabled": 1
-    },
-    {
-      "id": "RU",
-      "name": "Russia",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇷🇺",
-	  "enabled": 1
-    },
-    {
-      "id": "AD",
-      "name": "Andorra",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇦🇩",
-	  "enabled": 1
-    },
-    {
-      "id": "MC",
-      "name": "Monaco",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇲🇨",
-	  "enabled": 1
-    },
-    {
-      "id": "SM",
-      "name": "San Marino",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇸🇲",
-	  "enabled": 1
-    },
-    {
-      "id": "VA",
-      "name": "Vatican City",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇻🇦",
-	  "enabled": 1
-    },
-    {
-      "id": "MA",
-      "name": "Morocco",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇲🇦",
-	  "enabled": 1
-    },
-    {
-      "id": "GI",
-      "name": "Gibraltar",
-      "is_eu": false,
-      "is_schengen": false,
-      "flag": "🇬🇮",
-	  "enabled": 1
-    }
+    { "id": "EU", "name": "European Union", "is_eu": true, "is_schengen": false, "flag": "🇪🇺", "enabled": 1 },
+    { "id": "AT", "name": "Austria", "is_eu": true, "is_schengen": true, "flag": "🇦🇹", "enabled": 1 },
+    { "id": "BE", "name": "Belgium", "is_eu": true, "is_schengen": true, "flag": "🇧🇪", "enabled": 1 },
+    { "id": "BG", "name": "Bulgaria", "is_eu": true, "is_schengen": true, "flag": "🇧🇬", "enabled": 1 },
+    { "id": "HR", "name": "Croatia", "is_eu": true, "is_schengen": true, "flag": "🇭🇷", "enabled": 1 },
+    { "id": "CY", "name": "Cyprus", "is_eu": true, "is_schengen": false, "flag": "🇨🇾", "enabled": 1 },
+    { "id": "CZ", "name": "Czechia", "is_eu": true, "is_schengen": true, "flag": "🇨🇿", "enabled": 1 },
+    { "id": "DK", "name": "Denmark", "is_eu": true, "is_schengen": true, "flag": "🇩🇰", "enabled": 1 },
+    { "id": "EE", "name": "Estonia", "is_eu": true, "is_schengen": true, "flag": "🇪🇪", "enabled": 1 },
+    { "id": "FI", "name": "Finland", "is_eu": true, "is_schengen": true, "flag": "🇫🇮", "enabled": 1 },
+    { "id": "FR", "name": "France", "is_eu": true, "is_schengen": true, "flag": "🇫🇷", "enabled": 1 },
+    { "id": "DE", "name": "Germany", "is_eu": true, "is_schengen": true, "flag": "🇩🇪", "enabled": 1 },
+    { "id": "GR", "name": "Greece", "is_eu": true, "is_schengen": true, "flag": "🇬🇷", "enabled": 1 },
+    { "id": "HU", "name": "Hungary", "is_eu": true, "is_schengen": true, "flag": "🇭🇺", "enabled": 1 },
+    { "id": "IE", "name": "Ireland", "is_eu": true, "is_schengen": false, "flag": "🇮🇪", "enabled": 1 },
+    { "id": "IT", "name": "Italy", "is_eu": true, "is_schengen": true, "flag": "🇮🇹", "enabled": 1 },
+    { "id": "LV", "name": "Latvia", "is_eu": true, "is_schengen": true, "flag": "🇱🇻", "enabled": 1 },
+    { "id": "LT", "name": "Lithuania", "is_eu": true, "is_schengen": true, "flag": "🇱🇹", "enabled": 1 },
+    { "id": "LU", "name": "Luxembourg", "is_eu": true, "is_schengen": true, "flag": "🇱🇺", "enabled": 1 },
+    { "id": "MT", "name": "Malta", "is_eu": true, "is_schengen": true, "flag": "🇲🇹", "enabled": 1 },
+    { "id": "NL", "name": "Netherlands", "is_eu": true, "is_schengen": true, "flag": "🇳🇱", "enabled": 1 },
+    { "id": "PL", "name": "Poland", "is_eu": true, "is_schengen": true, "flag": "🇵🇱", "enabled": 1 },
+    { "id": "PT", "name": "Portugal", "is_eu": true, "is_schengen": true, "flag": "🇵🇹", "enabled": 1 },
+    { "id": "RO", "name": "Romania", "is_eu": true, "is_schengen": true, "flag": "🇷🇴", "enabled": 1 },
+    { "id": "SK", "name": "Slovakia", "is_eu": true, "is_schengen": true, "flag": "🇸🇰", "enabled": 1 },
+    { "id": "SI", "name": "Slovenia", "is_eu": true, "is_schengen": true, "flag": "🇸🇮", "enabled": 1 },
+    { "id": "ES", "name": "Spain", "is_eu": true, "is_schengen": true, "flag": "🇪🇸", "enabled": 1 },
+    { "id": "SE", "name": "Sweden", "is_eu": true, "is_schengen": true, "flag": "🇸🇪", "enabled": 1 },
+    { "id": "IS", "name": "Iceland", "is_eu": false, "is_schengen": true, "flag": "🇮🇸", "enabled": 1 },
+    { "id": "NO", "name": "Norway", "is_eu": false, "is_schengen": true, "flag": "🇳🇴", "enabled": 1 },
+    { "id": "CH", "name": "Switzerland", "is_eu": false, "is_schengen": true, "flag": "🇨🇭", "enabled": 1 },
+    { "id": "LI", "name": "Liechtenstein", "is_eu": false, "is_schengen": true, "flag": "🇱🇮", "enabled": 1 },
+    { "id": "GB", "name": "United Kingdom", "is_eu": false, "is_schengen": false, "flag": "🇬🇧", "enabled": 1 },
+    { "id": "TR", "name": "Turkey", "is_eu": false, "is_schengen": false, "flag": "🇹🇷", "enabled": 1 },
+    { "id": "RS", "name": "Serbia", "is_eu": false, "is_schengen": false, "flag": "🇷🇸", "enabled": 1 },
+    { "id": "MK", "name": "North Macedonia", "is_eu": false, "is_schengen": false, "flag": "🇲🇰", "enabled": 1 },
+    { "id": "AL", "name": "Albania", "is_eu": false, "is_schengen": false, "flag": "🇦🇱", "enabled": 1 },
+    { "id": "BA", "name": "Bosnia and Herzegovina",
+      "is_eu": false, "is_schengen": false, "flag": "🇧🇦", "enabled": 1 },
+    { "id": "ME", "name": "Montenegro", "is_eu": false, "is_schengen": false, "flag": "🇲🇪", "enabled": 1 },
+    { "id": "XK", "name": "Kosovo", "is_eu": false, "is_schengen": false, "flag": "🇽🇰", "enabled": 1 },
+    { "id": "MD", "name": "Moldova", "is_eu": false, "is_schengen": false, "flag": "🇲🇩", "enabled": 1 },
+    { "id": "UA", "name": "Ukraine", "is_eu": false, "is_schengen": false, "flag": "🇺🇦", "enabled": 1 },
+    { "id": "BY", "name": "Belarus", "is_eu": false, "is_schengen": false, "flag": "🇧🇾", "enabled": 1 },
+    { "id": "RU", "name": "Russia", "is_eu": false, "is_schengen": false, "flag": "🇷🇺", "enabled": 1 }
   ],
   "phones": [
-	{
+    {
       "country_id": "AT",
       "category": "Emergency",
-      "name_localized": {
-        "en": "Emergency",
-        "bg": "Спешен номер",
-        "ro": "Urgență"
-      },
+      "name_localized": { "en": "Emergency", "bg": "Спешен номер", "ro": "Urgență" },
       "number": "112"
     },
-	{
-      "country_id": "АТ",
+    {
+      "country_id": "AT",
       "category": "Police",
-      "name_localized": {
-        "en": "Police",
-        "bg": "Полиция",
-        "ro": "Policia"
-      },
+      "name_localized": { "en": "Police", "bg": "Полиция", "ro": "Policia" },
       "number": "133"
     },
-	{
+    {
       "country_id": "BG",
       "category": "Emergency",
-      "name_localized": {
-        "en": "Emergency",
-        "bg": "Спешен номер",
-        "ro": "Пътна помощ"
-      },
+      "name_localized": { "en": "Emergency", "bg": "Спешен номер", "ro": "Urgență" },
       "number": "112"
     },
-	{
+    {
       "country_id": "BG",
       "category": "Police",
-      "name_localized": {
-        "en": "Border Police",
-        "bg": "Гранична полиция",
-        "ro": "Пътна помощ"
-      },
+      "name_localized": { "en": "Border Police", "bg": "Гранична полиция", "ro": "Poliția de Frontieră" },
       "number": "+35929831865"
     },
-	{
+    {
       "country_id": "BG",
       "category": "Road",
-      "name_localized": {
-        "en": "Road Assistance (СБА)",
-        "bg": "Пътна помощ",
-        "ro": "Пътна помощ"
-      },
+      "name_localized": { "en": "Road Assistance (UAB)", "bg": "Пътна помощ (СБА)", "ro": "Asistență rutieră" },
       "number": "146"
     }
   ],
@@ -519,51 +126,43 @@
       "title_localized": {
         "en": "Required Documents (EU/Schengen)",
         "bg": "Необходими документи (ЕС/Шенген)",
-        "de": "Erforderliche Dokumente (EU/Schengen)", 
+        "de": "Erforderliche Dokumente (EU/Schengen)",
         "tr": "Gerekli Belgeler (AB/Schengen)"
       },
-	  "content_localized": {
-        "en": "To travel within the Schengen area...",
-        "bg": "За пътуване в Шенгенското пространство...",
-        "de": "Um im Schengen-Raum zu reisen...",
-        "tr": "Schengen bölgesinde seyahat etmek için..."
+      "content_localized": {
+        "en": "To travel within the Schengen area, you need a valid ID card or Passport.",
+        "bg": "За пътуване в Шенгенското пространство е необходима валидна лична карта или паспорт.",
+        "de": "Um im Schengen-Raum zu reisen, benötigen Sie einen gültigen Personalausweis oder Reisepass.",
+        "tr": "Schengen bölgesinde seyahat etmek için geçerli bir kimlik kartı veya pasaport gereklidir."
       },
       "country_ids": "EU",
-	  "enabled": 1
+      "enabled": 1
     },
     {
       "id": "vignette_bg",
-	  "title_localized": {
+      "title_localized": {
         "en": "Vignette Rules: Bulgaria",
-        "bg": "Правила за винетки: България",
-        "de": "Erforderliche Dokumente (EU/Schengen)", 
-        "tr": "Gerekli Belgeler (AB/Schengen)"
+        "bg": "Правила за винетки: България"
       },
-	  "content_localized": {
-        "en": "All vehicles must have a valid e-vignette...",
-        "bg": "Всички превозни средства трябва да имат валидна е-винетка...",
-        "de": "Um im Schengen-Raum zu reisen...",
-        "tr": "Schengen bölgesinde seyahat etmek için..."
+      "content_localized": {
+        "en": "All vehicles must have a valid e-vignette. Buy online at bgtoll.bg.",
+        "bg": "Всички превозни средства трябва да имат валидна е-винетка. Купете онлайн на bgtoll.bg."
       },
       "country_ids": "BG",
-	  "enabled": 1
+      "enabled": 1
     },
     {
       "id": "speed_gr",
-	  "title_localized": {
+      "title_localized": {
         "en": "Speed Limits: Greece",
-        "bg": "Скорост: Гърция",
-        "de": "Erforderliche Dokumente (EU/Schengen)", 
-        "tr": "Gerekli Belgeler (AB/Schengen)"
+        "bg": "Скорост: Гърция"
       },
-	  "content_localized": {
-        "en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
-        "bg": "Всички превозни средства трябва да имат валидна е-винетка...",
-        "de": "Um im Schengen-Raum zu reisen...",
-        "tr": "Schengen bölgesinde seyahat etmek için..."
+      "content_localized": {
+        "en": "Highway: 130 km/h\nRural: 90 km/h\nCity: 50 km/h",
+        "bg": "Магистрала: 130 км/ч\nИзвънградско: 90 км/ч\nГрадско: 50 км/ч"
       },
       "country_ids": "GR",
-	  "enabled": 1
+      "enabled": 1
     }
   ],
   "crossings": [
@@ -572,26 +171,15 @@
       "name": "Ruse - Giurgiu",
       "country_a_id": "BG",
       "country_b_id": "RO",
-      "status": 0,
-	  "lat": 43.8861,
-	  "lng": 26.0085,
+      "status_car": 0,
+      "status_truck": 0,
+      "status_bus": 0,
+      "lat": 43.8861,
+      "lng": 26.0085,
       "cameras": [
-        {
-          "title": "Camera 1",
-          "url": "http://s19.r145.nbis.net:8081/or-bul-cam4/index.m3u8"
-        },
-        {
-          "title": "Camera 2",
-          "url": "http://s19.r145.nbis.net:8081/or-bul-cam2/index.m3u8"
-        },
-		{
-          "title": "Camera 3",
-          "url": "http://s19.r145.nbis.net:8081/or-bul-cam3/index.m3u8"
-        },
-		{
-          "title": "Camera 4",
-          "url": "http://s19.r145.nbis.net:8081/or-bul-cam2/index.m3u8"
-        }
+        { "title": "Camera 1", "url": "http://s19.r145.nbis.net:8081/or-bul-cam4/index.m3u8" },
+        { "title": "Camera 2", "url": "http://s19.r145.nbis.net:8081/or-bul-cam2/index.m3u8" },
+        { "title": "Camera 3", "url": "http://s19.r145.nbis.net:8081/or-bul-cam3/index.m3u8" }
       ]
     },
     {
@@ -599,18 +187,14 @@
       "name": "Kalotina - Gradina",
       "country_a_id": "BG",
       "country_b_id": "RS",
-	  "status": 0,
-	  "lat": 42.9974,
-	  "lng": 22.8334,
+      "status_car": 0,
+      "status_truck": 0,
+      "status_bus": 0,
+      "lat": 42.9974,
+      "lng": 22.8334,
       "cameras": [
-        {
-          "title": "Camera 1 - entering BG",
-          "url": "https://kamere.amss.org.rs/gradina2/gradina2.m3u8"
-        },
-        {
-          "title": "Camera 2 - Exit BG",
-          "url": "https://kamere.amss.org.rs/gradina1/gradina1.m3u8"
-        }
+        { "title": "Camera 1 - Entry BG", "url": "https://kamere.amss.org.rs/gradina2/gradina2.m3u8" },
+        { "title": "Camera 2 - Exit BG", "url": "https://kamere.amss.org.rs/gradina1/gradina1.m3u8" }
       ]
     },
     {
@@ -618,26 +202,24 @@
       "name": "Kulata - Promachonas",
       "country_a_id": "BG",
       "country_b_id": "GR",
-      "status": 0,
-	  "lat": 41.3815,
-	  "lng": 23.3624, 
+      "status_car": 0,
+      "status_truck": 0,
+      "status_bus": 0,
+      "lat": 41.3815,
+      "lng": 23.3624,
       "cameras": [
-        {
-          "title": "Camera A",
-          "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_02/cctv.jpg?hash=1766961159117"
-        },
-        {
-          "title": "Camera B",
-          "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_01/cctv.jpg?hash=1766961179247"
-        }
+        { "title": "Camera A", "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_02/cctv.jpg?hash=1766961159117" },
+        { "title": "Camera B", "url": "https://cdn.uab.org/images/cctv/images/cctv/cctv_01/cctv.jpg?hash=1766961179247" }
       ]
     },
-	{
+    {
       "id": "BG-TR-01",
       "name": "Kapitan Andreevo - Kapıkule",
       "country_a_id": "BG",
       "country_b_id": "TR",
-      "status": 0,
+      "status_car": 0,
+      "status_truck": 0,
+      "status_bus": 0,
       "lat": 41.7186,
       "lng": 26.3486,
       "cameras": [
@@ -645,14 +227,16 @@
         { "title": "BG Lanes", "url": "" }
       ]
     },
-	{
+    {
       "id": "BG-RS-03",
       "name": "Vrashka Chuka",
       "country_a_id": "BG",
       "country_b_id": "RS",
-      "status": 0,
-      "lat": 43.941200,
-      "lng": 22.828700,
+      "status_car": 0,
+      "status_truck": 0,
+      "status_bus": 0,
+      "lat": 43.9412,
+      "lng": 22.8287,
       "cameras": [
         { "title": "Entry - BG", "url": "https://home-solutions.bg/cams/chuka2.jpg?1767038267587" },
         { "title": "Exit - BG", "url": "https://home-solutions.bg/cams/chuka1.jpg?1767037947121" }
