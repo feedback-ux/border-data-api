@@ -467,7 +467,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -476,7 +477,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "133"
     },
@@ -485,7 +487,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance (ÖAMTC)",
-        "bg": "Пътна помощ"
+        "bg": "Пътна помощ",
+		"ro": "Asistență rutieră"
       },
       "number": "120"
     },
@@ -494,7 +497,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -503,7 +507,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -512,7 +517,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Border Police",
-        "bg": "Гранична полиция"
+        "bg": "Гранична полиция",
+		"ro": "Poliție"
       },
       "number": "+35929831865"
     },
@@ -521,7 +527,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance (UAB)",
-        "bg": "Пътна помощ (СБА)"
+        "bg": "Пътна помощ (СБА)",
+		"ro": "Asistență rutieră"
       },
       "number": "146"
     },
@@ -530,7 +537,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -539,7 +547,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",,
+		"ro": "Poliție"
       },
       "number": "117"
     },
@@ -548,7 +557,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -557,7 +567,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "110"
     },
@@ -566,7 +577,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance (ADAC)",
-        "bg": "Пътна помощ"
+        "bg": "Пътна помощ",
+		"ro": "Asistență rutieră"
       },
       "number": "+4989222222"
     },
@@ -575,7 +587,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -584,7 +597,8 @@
       "category": "Police",
       "name_localized": {
         "en": "National Police",
-        "bg": "Национална полиция"
+        "bg": "Национална полиция",
+		"ro": "Poliție"
       },
       "number": "091"
     },
@@ -593,7 +607,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -602,7 +617,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "17"
     },
@@ -611,7 +627,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "999"
     },
@@ -620,7 +637,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -629,7 +647,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "100"
     },
@@ -638,7 +657,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance (ELPA)",
-        "bg": "Пътна помощ"
+        "bg": "Пътна помощ",
+		"ro": "Asistență rutieră"
       },
       "number": "10400"
     },
@@ -647,7 +667,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -656,7 +677,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -665,7 +687,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "107"
     },
@@ -674,7 +697,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -683,7 +707,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",,
+		"ro": "Poliție"
       },
       "number": "113"
     },
@@ -692,7 +717,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -701,7 +727,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "192"
     },
@@ -710,7 +737,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -719,7 +747,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -728,7 +757,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -737,7 +767,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Border Police",
-        "bg": "Гранична полиция"
+        "bg": "Гранична полиция",
+		"ro": "Poliție"
       },
       "number": "+40219590"
     },
@@ -746,7 +777,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -755,7 +787,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "192"
     },
@@ -764,7 +797,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance (AMSS)",
-        "bg": "Пътна помощ"
+        "bg": "Пътна помощ",
+		"ro": "Asistență rutieră"
       },
       "number": "1987"
     },
@@ -773,7 +807,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     },
@@ -782,7 +817,8 @@
       "category": "Police",
       "name_localized": {
         "en": "Police",
-        "bg": "Полиция"
+        "bg": "Полиция",
+		"ro": "Poliție"
       },
       "number": "155"
     },
@@ -791,7 +827,8 @@
       "category": "Road",
       "name_localized": {
         "en": "Road Assistance",
-        "bg": "Пътна помощ"
+        "bg": "Пътна помощ",
+		"ro": "Asistență rutieră"
       },
       "number": "154"
     },
@@ -800,7 +837,8 @@
       "category": "Emergency",
       "name_localized": {
         "en": "Emergency",
-        "bg": "Спешен номер"
+        "bg": "Спешен номер",
+		"ro": "Urgență"
       },
       "number": "112"
     }
@@ -810,11 +848,13 @@
       "id": "docs_general",
       "title_localized": {
         "en": "Required Documents (EU/Schengen)",
-        "bg": "Необходими документи (ЕС/Шенген)"
+        "bg": "Необходими документи (ЕС/Шенген)",
+		"ro": "Documente necesare (UE/Schengen)"
       },
       "content_localized": {
         "en": "To travel within the Schengen area, you generally need a valid ID card or Passport.\n\nCheck expiration dates before traveling.",
-        "bg": "За пътуване в Шенгенското пространство обикновено ви е необходима валидна лична карта или паспорт.\n\nПроверете валидността на документите преди пътуване."
+        "bg": "За пътуване в Шенгенското пространство обикновено ви е необходима валидна лична карта или паспорт.\n\nПроверете валидността на документите преди пътуване.",
+		"ro": "Pentru a călători în spațiul Schengen, aveți nevoie în general de o carte de identitate sau un pașaport valid.\n\nVerificați datele de expirare înainte de a călători."
       },
       "country_ids": "EU",
       "enabled": 1
@@ -823,11 +863,13 @@
       "id": "vignette_bg",
       "title_localized": {
         "en": "Vignette Rules: Bulgaria",
-        "bg": "Правила за винетки: България"
+        "bg": "Правила за винетки: България",
+		"ro": "Reguli vinietă: Bulgaria"
       },
       "content_localized": {
         "en": "All vehicles must have a valid e-vignette immediately upon entering the country. Buy online at bgtoll.bg.",
-        "bg": "Всички пътни превозни средства трябва да имат валидна е-винетка незабавно след влизане в страната. Купете онлайн от bgtoll.bg."
+        "bg": "Всички пътни превозни средства трябва да имат валидна е-винетка незабавно след влизане в страната. Купете онлайн от bgtoll.bg.",
+		"ro": "Toate vehiculele trebuie să aibă o vinietă electronică valabilă imediat după intrarea în țară. Cumpărați online de la bgtoll.bg."
       },
       "country_ids": "BG",
       "enabled": 1
@@ -836,11 +878,13 @@
       "id": "speed_gr",
       "title_localized": {
         "en": "Speed Limits: Greece",
-        "bg": "Скорост: Гърция"
+        "bg": "Скорост: Гърция",
+		"ro": "Limite de viteză: Grecia"
       },
       "content_localized": {
         "en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
-        "bg": "Стандартни ограничения на скоростта в Гърция:\n- Магистрала: 130 км/ч\n- Извънградско: 90 км/ч\n- Градско: 50 км/ч"
+        "bg": "Стандартни ограничения на скоростта в Гърция:\n- Магистрала: 130 км/ч\n- Извънградско: 90 км/ч\n- Градско: 50 км/ч",
+		"ro": "Limite standard de viteză în Grecia:\n- Autostradă: 130 km/h\n- Drumuri naționale: 90 km/h\n- Oraș: 50 km/h"
       },
       "country_ids": "GR",
       "enabled": 1
