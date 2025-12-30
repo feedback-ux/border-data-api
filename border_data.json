@@ -808,28 +808,40 @@
   "articles": [
     {
       "id": "docs_general",
-      "title_en": "Required Documents (EU/Schengen)",
-      "title_bg": "Необходими документи (ЕС/Шенген)",
-      "content_en": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
-      "content_bg": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "title_localized": {
+        "en": "Required Documents (EU/Schengen)",
+        "bg": "Необходими документи (ЕС/Шенген)"
+      },
+      "content_localized": {
+        "en": "To travel within the Schengen area, you generally need a valid ID card or Passport.\n\nCheck expiration dates before traveling.",
+        "bg": "За пътуване в Шенгенското пространство обикновено ви е необходима валидна лична карта или паспорт.\n\nПроверете валидността на документите преди пътуване."
+      },
       "country_ids": "EU",
       "enabled": 1
     },
     {
       "id": "vignette_bg",
-      "title_en": "Vignette Rules: Bulgaria",
-      "title_bg": "Правила за винетки: България",
-      "content_en": "All vehicles must have a valid e-vignette...",
-      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+      "title_localized": {
+        "en": "Vignette Rules: Bulgaria",
+        "bg": "Правила за винетки: България"
+      },
+      "content_localized": {
+        "en": "All vehicles must have a valid e-vignette immediately upon entering the country. Buy online at bgtoll.bg.",
+        "bg": "Всички пътни превозни средства трябва да имат валидна е-винетка незабавно след влизане в страната. Купете онлайн от bgtoll.bg."
+      },
       "country_ids": "BG",
       "enabled": 1
     },
     {
       "id": "speed_gr",
-      "title_en": "Speed Limits: Greece",
-      "title_bg": "Скорост: Гърция",
-      "content_en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
-      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+      "title_localized": {
+        "en": "Speed Limits: Greece",
+        "bg": "Скорост: Гърция"
+      },
+      "content_localized": {
+        "en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+        "bg": "Стандартни ограничения на скоростта в Гърция:\n- Магистрала: 130 км/ч\n- Извънградско: 90 км/ч\n- Градско: 50 км/ч"
+      },
       "country_ids": "GR",
       "enabled": 1
     }
