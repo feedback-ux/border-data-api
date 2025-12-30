@@ -462,47 +462,72 @@
     }
   ],
   "phones": [
-    {
-      "country_id": "BG",
-      "category": "Emergency",
-      "name_localized": { "en": "Emergency", "bg": "Спешен номер", "ro": "Urgență" },
-      "number": "112"
-    },
-    {
-      "country_id": "BG",
-      "category": "Police",
-      "name_localized": { "en": "Border Police", "bg": "Гранична полиция" },
-      "number": "+35929831865"
-    }
+    { "country_id": "AT", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "AT", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "133" },
+    { "country_id": "AT", "category": "Road", "name_localized": { "en": "Road Assistance (ÖAMTC)", "bg": "Пътна помощ" }, "number": "120" },
+    { "country_id": "BE", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "BG", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "BG", "category": "Police", "name_localized": { "en": "Border Police", "bg": "Гранична полиция" }, "number": "+35929831865" },
+    { "country_id": "BG", "category": "Road", "name_localized": { "en": "Road Assistance (UAB)", "bg": "Пътна помощ (СБА)" }, "number": "146" },
+    { "country_id": "CH", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "CH", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "117" },
+    { "country_id": "DE", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "DE", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "110" },
+    { "country_id": "DE", "category": "Road", "name_localized": { "en": "Road Assistance (ADAC)", "bg": "Пътна помощ" }, "number": "+4989222222" },
+    { "country_id": "ES", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "ES", "category": "Police", "name_localized": { "en": "National Police", "bg": "Национална полиция" }, "number": "091" },
+    { "country_id": "FR", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "FR", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "17" },
+    { "country_id": "GB", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "999" },
+    { "country_id": "GR", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "GR", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "100" },
+    { "country_id": "GR", "category": "Road", "name_localized": { "en": "Road Assistance (ELPA)", "bg": "Пътна помощ" }, "number": "10400" },
+    { "country_id": "HR", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "HU", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "HU", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "107" },
+    { "country_id": "IT", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "IT", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "113" },
+    { "country_id": "MK", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "MK", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "192" },
+    { "country_id": "NL", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "PL", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "RO", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "RO", "category": "Police", "name_localized": { "en": "Border Police", "bg": "Гранична полиция" }, "number": "+40219590" },
+    { "country_id": "RS", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "RS", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "192" },
+    { "country_id": "RS", "category": "Road", "name_localized": { "en": "Road Assistance (AMSS)", "bg": "Пътна помощ" }, "number": "1987" },
+    { "country_id": "TR", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" },
+    { "country_id": "TR", "category": "Police", "name_localized": { "en": "Police", "bg": "Полиция" }, "number": "155" },
+    { "country_id": "TR", "category": "Road", "name_localized": { "en": "Road Assistance", "bg": "Пътна помощ" }, "number": "154" },
+    { "country_id": "UA", "category": "Emergency", "name_localized": { "en": "Emergency", "bg": "Спешен номер" }, "number": "112" }
   ],
   "articles": [
     {
       "id": "docs_general",
-      "title_localized": {
-        "en": "Required Documents (EU/Schengen)",
-        "bg": "Необходими документи (ЕС/Шенген)",
-        "de": "Erforderliche Dokumente"
-      },
-      "content_localized": {
-        "en": "To travel within the Schengen area...",
-        "bg": "За пътуване в Шенгенското пространство...",
-        "de": "Um im Schengen-Raum zu reisen..."
-      },
+      "title_en": "Required Documents (EU/Schengen)",
+      "title_bg": "Необходими документи (ЕС/Шенген)",
+      "content_en": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "content_bg": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
       "country_ids": "EU",
-      "enabled": 1
+	  "enabled": 1
     },
     {
       "id": "vignette_bg",
-      "title_localized": {
-        "en": "Vignette Rules: Bulgaria",
-        "bg": "Правила за винетки: България"
-      },
-      "content_localized": {
-        "en": "All vehicles must have a valid e-vignette.",
-        "bg": "Всички МПС трябва да имат е-винетка."
-      },
+      "title_en": "Vignette Rules: Bulgaria",
+      "title_bg": "Правила за винетки: България",
+      "content_en": "All vehicles must have a valid e-vignette...",
+      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
       "country_ids": "BG",
-      "enabled": 1
+	  "enabled": 1
+    },
+    {
+      "id": "speed_gr",
+      "title_en": "Speed Limits: Greece",
+      "title_bg": "Скорост: Гърция",
+      "content_en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+      "country_ids": "GR",
+	  "enabled": 1
     }
   ],
   "crossings": [
