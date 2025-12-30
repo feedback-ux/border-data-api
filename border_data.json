@@ -504,28 +504,52 @@
   "articles": [
     {
       "id": "docs_general",
-      "title_en": "Required Documents (EU/Schengen)",
-      "title_bg": "Необходими документи (ЕС/Шенген)",
-      "content_en": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
-      "content_bg": "To travel within the Schengen area, you generally need a valid ID card or Passport. \n\nCheck expiration dates before traveling.",
+      "title_localized": {
+        "en": "Required Documents (EU/Schengen)",
+        "bg": "Необходими документи (ЕС/Шенген)",
+        "de": "Erforderliche Dokumente (EU/Schengen)", 
+        "tr": "Gerekli Belgeler (AB/Schengen)"
+      },
+	  "content_localized": {
+        "en": "To travel within the Schengen area...",
+        "bg": "За пътуване в Шенгенското пространство...",
+        "de": "Um im Schengen-Raum zu reisen...",
+        "tr": "Schengen bölgesinde seyahat etmek için..."
+      },
       "country_ids": "EU",
 	  "enabled": 1
     },
     {
       "id": "vignette_bg",
-      "title_en": "Vignette Rules: Bulgaria",
-      "title_bg": "Правила за винетки: България",
-      "content_en": "All vehicles must have a valid e-vignette...",
-      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+	  "title_localized": {
+        "en": "Vignette Rules: Bulgaria",
+        "bg": "Правила за винетки: България",
+        "de": "Erforderliche Dokumente (EU/Schengen)", 
+        "tr": "Gerekli Belgeler (AB/Schengen)"
+      },
+	  "content_localized": {
+        "en": "All vehicles must have a valid e-vignette...",
+        "bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+        "de": "Um im Schengen-Raum zu reisen...",
+        "tr": "Schengen bölgesinde seyahat etmek için..."
+      },
       "country_ids": "BG",
 	  "enabled": 1
     },
     {
       "id": "speed_gr",
-      "title_en": "Speed Limits: Greece",
-      "title_bg": "Скорост: Гърция",
-      "content_en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
-      "content_bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+	  "title_localized": {
+        "en": "Speed Limits: Greece",
+        "bg": "Скорост: Гърция",
+        "de": "Erforderliche Dokumente (EU/Schengen)", 
+        "tr": "Gerekli Belgeler (AB/Schengen)"
+      },
+	  "content_localized": {
+        "en": "Standard speed limits in Greece:\n- Highway: 130 km/h\n- Rural roads: 90 km/h\n- City: 50 km/h",
+        "bg": "Всички превозни средства трябва да имат валидна е-винетка...",
+        "de": "Um im Schengen-Raum zu reisen...",
+        "tr": "Schengen bölgesinde seyahat etmek için..."
+      },
       "country_ids": "GR",
 	  "enabled": 1
     }
