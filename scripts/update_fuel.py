@@ -10,32 +10,26 @@ import re
 JSON_FILE = 'border_data.json'
 EXCHANGE_API = "https://api.frankfurter.app/latest?from=EUR"
 
-# URL адреси - използваме началните страници, където са кутиите с цени
+# Всички държави ползват началните страници (където са кутиите)
 URLS = {
-    # За България вече взимаме EUR директно от сайта (според HTML-а ти)
-    "BG": {"url": "https://bg.fuelo.net/?lang=en", "currency": "EUR"},
-    "GR": {"url": "https://gr.fuelo.net/?lang=en", "currency": "EUR"},
-    "RO": {"url": "https://ro.fuelo.net/?lang=en", "currency": "RON"},
-    "TR": {"url": "https://tr.fuelo.net/?lang=en", "currency": "TRY"},
-    "RS": {"url": "https://rs.fuelo.net/?lang=en", "currency": "RSD"},
-    "MK": {"url": "https://mk.fuelo.net/?lang=en", "currency": "MKD"}
+    "BG": "https://bg.fuelo.net/?lang=en",
+    "GR": "https://gr.fuelo.net/?lang=en",
+    "RO": "https://ro.fuelo.net/?lang=en",
+    "TR": "https://tr.fuelo.net/?lang=en",
+    "RS": "https://rs.fuelo.net/?lang=en",
+    "MK": "https://mk.fuelo.net/?lang=en"
 }
 
+# Мапинг на горивата
 FUEL_MAPPING = {
-    "Benzin A95": "gasoline",
-    "Unleaded 95": "gasoline",
-    "Gasoline A95": "gasoline",
-    "A95": "gasoline",
-    "Diesel": "diesel",
-    "Diesel Premium": "diesel_plus",
-    "LPG": "lpg",
-    "Autogas": "lpg",
-    "Methane": "cng",
-    "CNG": "cng"
+    "Benzin A95": "gasoline", "Unleaded 95": "gasoline", "Gasoline A95": "gasoline", "A95": "gasoline",
+    "Diesel": "diesel", "Diesel Premium": "diesel_plus",
+    "LPG": "lpg", "Autogas": "lpg", "Gas": "lpg",
+    "Methane": "cng", "CNG": "cng"
 }
 
 def get_exchange_rates():
-    """Взима курсове от API и добавя твърди стойности за липсващите"""
+    """Взима курсове от API (само за RON, TRY, RSD, MKD -> към EUR)"""
     scraper = cloudscraper.create_scraper()
     rates = {}
     try:
@@ -44,89 +38,85 @@ def get_exchange_rates():
             data = response.json()
             rates = data.get('rates', {})
             print("Exchange rates loaded from API.")
-        else:
-            print(f"API Error: {response.status_code}")
-    except Exception as e:
-        print(f"Error fetching exchange rates: {e}")
+    except Exception:
+        pass
 
-    # Fallback курсове
-    if 'RSD' not in rates: rates['RSD'] = 117.2
-    if 'MKD' not in rates: rates['MKD'] = 61.6
-    if 'TRY' not in rates: rates['TRY'] = 35.0 # Приблизително, API-то трябва да го хване
+    # Fallback само за валутите, които не са EUR
+    if 'RSD' not in rates: rates['RSD'] = 117.0
+    if 'MKD' not in rates: rates['MKD'] = 61.5
+    if 'TRY' not in rates: rates['TRY'] = 36.0 
+    if 'RON' not in rates: rates['RON'] = 4.97
     
     return rates
 
-def scrape_fuelo(country_code, url_info, rates):
+def detect_currency_and_rate(text_raw, country_code, rates):
+    """Опитва се да познае валутата. ЗА БЪЛГАРИЯ ВЕЧЕ Е САМО ЕВРО."""
+    text = text_raw.lower()
+    
+    # Ако видим знак за евро или пише EUR -> 1:1
+    if '€' in text or 'eur' in text: return 'EUR', 1.0
+    
+    # Другите валути
+    if 'ron' in text or 'lei' in text: return 'RON', rates.get('RON', 4.97)
+    if 'try' in text or 'tl' in text: return 'TRY', rates.get('TRY', 36.0)
+    if 'rsd' in text or 'din' in text: return 'RSD', rates.get('RSD', 117.0)
+    if 'mkd' in text or 'den' in text: return 'MKD', rates.get('MKD', 61.5)
+    
+    # Fallback по държава (За BG вече е EUR по подразбиране)
+    defaults = {'BG': 'EUR', 'GR': 'EUR', 'RO': 'RON', 'TR': 'TRY', 'RS': 'RSD', 'MK': 'MKD'}
+    curr = defaults.get(country_code, 'EUR')
+    return curr, rates.get(curr, 1.0)
+
+def scrape_fuelo(country_code, url, rates):
     print(f"--- Processing {country_code} ---")
     scraper = cloudscraper.create_scraper()
     
     try:
-        response = scraper.get(url_info['url'])
+        response = scraper.get(url)
         if response.status_code != 200:
             print(f"FAILED: Status code {response.status_code}")
             return None
 
         soup = BeautifulSoup(response.content, 'html.parser')
         prices = {}
-        
-        # Търсим всички кутии с класове "box"
+        found_any = False
+
+        # --- Търсене на КУТИИ (Cards) ---
+        # Търсим div с class="box" (както е в твоя HTML)
         boxes = soup.find_all('div', class_=lambda x: x and 'box' in x.split())
         
-        currency_code = url_info['currency']
-        rate = 1.0
-        
-        if currency_code != "EUR":
-            rate = rates.get(currency_code, 0)
-            if rate == 0:
-                print(f"Skipping: No rate for {currency_code}")
-                return None
-
-        found_any = False
-        
         for box in boxes:
-            # 1. Търсим името на горивото (h2)
-            h2 = box.find('h2')
-            if not h2: continue
-            fuel_name_raw = h2.get_text(strip=True)
+            h2 = box.find('h2') # Име: Unleaded 95
+            h3 = box.find('h3') # Цена: 1,25 €
             
-            # 2. Търсим цената (h3 -> span)
-            h3 = box.find('h3')
-            if not h3: continue
-            price_raw = h3.get_text(strip=True) # "1,25 € +0.00€"
-
-            # 3. Извличаме числото (първото срещнато число с десетична запетая/точка)
-            price_match = re.search(r"([0-9]+[.,][0-9]+)", price_raw)
-            if not price_match: continue
-            
-            price_text = price_match.group(1).replace(',', '.')
-
-            # 4. Проверяваме кое гориво е това
-            for f_name, json_key in FUEL_MAPPING.items():
-                if f_name.lower() in fuel_name_raw.lower():
-                    try:
-                        price_local = float(price_text)
-                        
-                        # Превалутиране
-                        if currency_code == "EUR":
-                            price_eur = price_local
-                        else:
-                            price_eur = price_local / rate
-                        
-                        final_price = round(price_eur, 2)
-                        
-                        # Записваме (само ако го няма или обновяваме)
-                        prices[json_key] = final_price
-                        print(f"  > Found {json_key}: {final_price} EUR (local: {price_local} {currency_code})")
-                        found_any = True
-                    except ValueError:
-                        pass
-                    break # Спираме търсенето на име за тази кутия
+            if h2 and h3:
+                name_raw = h2.get_text(strip=True)
+                price_raw = h3.get_text(strip=True)
+                
+                # Търсим числото (1,25)
+                match = re.search(r"([0-9]+[.,][0-9]+)", price_raw)
+                if match:
+                    val_text = match.group(1).replace(',', '.')
+                    
+                    # Определяме валута (вече без лев)
+                    curr, rate = detect_currency_and_rate(price_raw, country_code, rates)
+                    
+                    for k, v in FUEL_MAPPING.items():
+                        if k.lower() in name_raw.lower():
+                            try:
+                                # Пресмятане
+                                price_eur = float(val_text) / rate if curr != 'EUR' else float(val_text)
+                                prices[v] = round(price_eur, 2)
+                                print(f"  > Found {v}: {prices[v]} EUR (raw: {val_text} {curr})")
+                                found_any = True
+                            except: pass
+                            break
 
         if found_any:
             prices['last_updated'] = datetime.now().strftime("%Y-%m-%d")
             return prices
         else:
-            print(f"WARNING: No fuel prices found in HTML for {country_code}")
+            print(f"WARNING: No fuel prices found for {country_code}")
             return None
 
     except Exception as e:
@@ -151,7 +141,7 @@ def main():
             if new_prices:
                 country['fuel_prices'] = new_prices
                 updated_count += 1
-            time.sleep(1) # Пауза между заявките
+            time.sleep(1)
     
     if updated_count > 0:
         with open(JSON_FILE, 'w', encoding='utf-8') as f:
