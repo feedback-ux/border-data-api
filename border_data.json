@@ -25,7 +25,7 @@
     {
       "id": "alert_system_check",
       "severity": "INFO",
-      "enabled": 1,
+      "enabled": 0,
       "country_ids": "ALL",
       "title_localized": {
         "en": "System Update ТЕСТ",
