@@ -43,10 +43,10 @@
     {
       "id": "alert_system_check_2",
       "severity": "INFO",
-      "enabled": 0,
+      "enabled": 1,
       "country_ids": "ALL",
       "title_localized": {
-        "en": "System Update ТЕСТ",
+        "en": "System Update",
         "bg": "Обновяване на системата ТЕСТ",
         "ro": "Lucrări rutiere: Kulata",
         "tr": "Yol Çalışmaları: Kulata"
