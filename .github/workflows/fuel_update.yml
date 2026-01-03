@@ -1,0 +1,36 @@
+name: Update Fuel Prices
+
+on:
+  schedule:
+    # Пуска се всеки ден в 08:00 сутринта (UTC време)
+    - cron: '0 8 * * *'
+  # Позволява ти да го пуснеш ръчно от бутона "Run workflow" за тест
+  workflow_dispatch:
+
+jobs:
+  update-fuel:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Даваме право на робота да записва в хранилището
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install -r scripts/requirements.txt
+
+    - name: Run update script
+      run: python scripts/update_fuel.py
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto-update fuel prices (Daily)"
+        file_pattern: 'assets/border_data.json'
