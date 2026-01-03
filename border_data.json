@@ -364,7 +364,7 @@
       "enabled": 1,
       "fuel_prices": {
         "gasoline": 1.52,
-        "diesel": 1.72,
+        "diesel": 1.73,
         "lpg": 0.8,
         "cng": 1.15,
         "last_updated": "2026-01-03"
