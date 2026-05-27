@@ -93,11 +93,11 @@
       "enabled": 1,
       "fuel_prices": {
         "gasoline": 1.55,
-        "diesel": 1.73,
-        "lpg": 0.78,
-        "diesel_plus": 1.93,
+        "diesel": 1.71,
+        "lpg": 0.76,
+        "diesel_plus": 1.92,
         "cng": 1.22,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
@@ -174,10 +174,10 @@
       "fuel_prices": {
         "gasoline": 2.12,
         "diesel": 1.78,
-        "lpg": 1.18,
-        "diesel_plus": 1.88,
+        "lpg": 1.17,
+        "diesel_plus": 1.87,
         "cng": 1.24,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
@@ -268,11 +268,11 @@
       "flag": "🇷🇴",
       "enabled": 1,
       "fuel_prices": {
-        "gasoline": 1.7,
+        "gasoline": 1.71,
         "diesel": 1.86,
         "lpg": 0.77,
         "diesel_plus": 1.98,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
@@ -355,10 +355,10 @@
       "flag": "🇹🇷",
       "enabled": 1,
       "fuel_prices": {
-        "gasoline": 1.1,
-        "diesel": 1.38,
+        "gasoline": 1.09,
+        "diesel": 1.37,
         "lpg": 0.58,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
@@ -369,12 +369,12 @@
       "flag": "🇷🇸",
       "enabled": 1,
       "fuel_prices": {
-        "gasoline": 1.63,
-        "diesel": 1.89,
+        "gasoline": 1.64,
+        "diesel": 1.92,
         "lpg": 0.94,
-        "diesel_plus": 1.99,
+        "diesel_plus": 2.02,
         "cng": 1.11,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
@@ -385,12 +385,12 @@
       "flag": "🇲🇰",
       "enabled": 1,
       "fuel_prices": {
-        "gasoline": 1.41,
+        "gasoline": 1.42,
         "diesel": 1.5,
         "lpg": 0.86,
         "diesel_plus": 1.51,
         "cng": 1.19,
-        "last_updated": "2026-05-25"
+        "last_updated": "2026-05-27"
       }
     },
     {
