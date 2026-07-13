@@ -93,11 +93,11 @@
       "enabled": 1,
       "fuel_prices": {
         "gasoline": 1.48,
-        "diesel": 1.52,
+        "diesel": 1.53,
         "lpg": 0.62,
-        "diesel_plus": 1.73,
+        "diesel_plus": 1.75,
         "cng": 1.26,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
@@ -173,11 +173,11 @@
       "enabled": 1,
       "fuel_prices": {
         "gasoline": 1.96,
-        "diesel": 1.76,
-        "lpg": 0.96,
-        "diesel_plus": 1.87,
+        "diesel": 1.78,
+        "lpg": 0.95,
+        "diesel_plus": 1.88,
         "cng": 1.21,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
@@ -272,7 +272,7 @@
         "diesel": 1.82,
         "lpg": 0.85,
         "diesel_plus": 1.93,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
@@ -358,7 +358,7 @@
         "gasoline": 1.08,
         "diesel": 1.12,
         "lpg": 0.57,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
@@ -374,7 +374,7 @@
         "lpg": 0.9,
         "diesel_plus": 1.96,
         "cng": 1.11,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
@@ -390,7 +390,7 @@
         "lpg": 0.76,
         "diesel_plus": 1.36,
         "cng": 1.22,
-        "last_updated": "2026-07-12"
+        "last_updated": "2026-07-13"
       }
     },
     {
